@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-__author__ = "Michael Castellana, Chiara Pietra"
+__author__ = "Michael Castellana"
 __email__ = "micastel@cisco.com"
 __status__ = "Development"
 
