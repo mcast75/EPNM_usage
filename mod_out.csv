@@ -1,0 +1,1444 @@
+Dev ID,Family,Module Name,Location,Description
+7688730 [3],Cisco NCS 1001,N/A,0/1,NCS1000 Optical Amplifier FPGA Module
+7688730 [31],Cisco NCS 1001,N/A,0/1,Pre Amplifier Module
+7688730 [34],Cisco NCS 1001,N/A,0/1,Boost Amplifier Module
+7688732 [5],Cisco NCS 1001,N/A,0/1,Boost Amplifier Module
+7688732 [6],Cisco NCS 1001,N/A,0/1,Pre Amplifier Module
+7688732 [22],Cisco NCS 1001,N/A,0/1,NCS1000 Optical Amplifier FPGA Module
+143055941 [7],Cisco NCS 1001,N/A,0/1,NCS1000 Optical Amplifier FPGA Module
+143055941 [49],Cisco NCS 1001,N/A,0/1,Boost Amplifier Module
+143055941 [27],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, LINE"
+143055941 [51],Cisco NCS 1001,N/A,0/1,Bst Channel Monitor Module
+143055941 [59],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM"
+143055941 [33],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, OSC"
+143055941 [34],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM-CHECK"
+143055941 [22],Cisco NCS 1001,N/A,0/1,Pre Amplifier Module
+143055941 [43],Cisco NCS 1001,N/A,0/1,Pre Channel Monitor Module
+143055947 [19],Cisco NCS 1001,N/A,0/1,Bst Channel Monitor Module
+143055947 [23],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, LINE"
+143055947 [43],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM"
+143055947 [9],Cisco NCS 1001,N/A,0/1,Pre Amplifier Module
+143055947 [29],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, OSC"
+143055947 [21],Cisco NCS 1001,N/A,0/1,NCS1000 Optical Amplifier FPGA Module
+143055947 [59],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM-CHECK"
+143055947 [42],Cisco NCS 1001,N/A,0/1,Boost Amplifier Module
+143055947 [6],Cisco NCS 1001,N/A,0/1,Pre Channel Monitor Module
+143055948 [40],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, LINE"
+143055948 [15],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM-CHECK"
+143055948 [1],Cisco NCS 1001,N/A,0/1,Bst Channel Monitor Module
+143055948 [43],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, COM"
+143055948 [2],Cisco NCS 1001,N/A,0/1,Pre Channel Monitor Module
+143055948 [39],Cisco NCS 1001,N/A,0/1,"Ots Optical Port, OSC"
+143055948 [41],Cisco NCS 1001,N/A,0/1,NCS1000 Optical Amplifier FPGA Module
+143055948 [45],Cisco NCS 1001,N/A,0/1,Pre Amplifier Module
+143055948 [44],Cisco NCS 1001,N/A,0/1,Boost Amplifier Module
+7688730 [25],Cisco NCS 1001,N/A,0/1-FPGA Module,Temperature Module
+7688730 [14],Cisco NCS 1001,NCS1K-EDFA,0/1-FPGA Module,Network Convergence System 1000 amplifier module
+7688732 [25],Cisco NCS 1001,NCS1K-EDFA,0/1-FPGA Module,Network Convergence System 1000 amplifier module
+7688732 [36],Cisco NCS 1001,N/A,0/1-FPGA Module,Temperature Module
+143055941 [31],Cisco NCS 1001,NCS1K-EDFA,0/1-FPGA Module,Network Convergence System 1000 amplifier module
+143055941 [57],Cisco NCS 1001,N/A,0/1-FPGA Module,Temperature Module
+143055947 [54],Cisco NCS 1001,N/A,0/1-FPGA Module,Temperature Module
+143055947 [10],Cisco NCS 1001,NCS1K-EDFA,0/1-FPGA Module,Network Convergence System 1000 amplifier module
+143055948 [20],Cisco NCS 1001,NCS1K-EDFA,0/1-FPGA Module,Network Convergence System 1000 amplifier module
+143055948 [26],Cisco NCS 1001,N/A,0/1-FPGA Module,Temperature Module
+7688730 [26],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-PORT-0,Cisco SFP Pluggable Optics Module
+7688732 [10],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-PORT-0,Cisco SFP Pluggable Optics Module
+143055941 [60],Cisco NCS 1001,UNQUALIFIED-SFP,0/1-PORT-0,Unqualified SFP Pluggable Optics Module
+143055947 [48],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-PORT-0,Cisco SFP Pluggable Optics Module
+143055948 [14],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-PORT-0,Cisco SFP Pluggable Optics Module
+7688730 [27],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-SFP Container,Cisco SFP Pluggable Optics Module
+7688732 [4],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-SFP Container,Cisco SFP Pluggable Optics Module
+143055941 [11],Cisco NCS 1001,UNQUALIFIED-SFP,0/1-SFP Container,Unqualified SFP Pluggable Optics Module
+143055947 [5],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-SFP Container,Cisco SFP Pluggable Optics Module
+143055948 [17],Cisco NCS 1001,ONS-SC-Z3-1510,0/1-SFP Container,Cisco SFP Pluggable Optics Module
+7688730 [7],Cisco NCS 1001,N/A,0/2,NCS1000 Optical Protection FPGA Module
+7688730 [24],Cisco NCS 1001,N/A,0/2,PSM Optical Module
+7688732 [11],Cisco NCS 1001,N/A,0/2,PSM Optical Module
+7688732 [28],Cisco NCS 1001,N/A,0/2,NCS1000 Optical Protection FPGA Module
+143055941 [18],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, WORKING"
+143055941 [55],Cisco NCS 1001,N/A,0/2,NCS1000 Optical Protection FPGA Module
+143055941 [46],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, COM"
+143055941 [4],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, PROTECTED"
+143055941 [13],Cisco NCS 1001,N/A,0/2,PSM Optical Module
+143055947 [36],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, WORKING"
+143055947 [17],Cisco NCS 1001,N/A,0/2,PSM Optical Module
+143055947 [37],Cisco NCS 1001,N/A,0/2,NCS1000 Optical Protection FPGA Module
+143055947 [18],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, PROTECTED"
+143055947 [20],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, COM"
+143055948 [4],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, PROTECTED"
+143055948 [19],Cisco NCS 1001,N/A,0/2,NCS1000 Optical Protection FPGA Module
+143055948 [25],Cisco NCS 1001,N/A,0/2,PSM Optical Module
+143055948 [37],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, COM"
+143055948 [29],Cisco NCS 1001,N/A,0/2,"Ots Optical Port, WORKING"
+7688730 [11],Cisco NCS 1001,NCS1K-PSM,0/2-FPGA Module,Network Convergence System 1000 protection module
+7688730 [18],Cisco NCS 1001,N/A,0/2-FPGA Module,Temperature Module
+7688732 [37],Cisco NCS 1001,N/A,0/2-FPGA Module,Temperature Module
+7688732 [26],Cisco NCS 1001,NCS1K-PSM,0/2-FPGA Module,Network Convergence System 1000 protection module
+143055941 [10],Cisco NCS 1001,N/A,0/2-FPGA Module,Temperature Module
+143055941 [37],Cisco NCS 1001,NCS1K-PSM,0/2-FPGA Module,Network Convergence System 1000 protection module
+143055947 [31],Cisco NCS 1001,NCS1K-PSM,0/2-FPGA Module,Network Convergence System 1000 protection module
+143055947 [30],Cisco NCS 1001,N/A,0/2-FPGA Module,Temperature Module
+143055948 [55],Cisco NCS 1001,NCS1K-PSM,0/2-FPGA Module,Network Convergence System 1000 protection module
+143055948 [48],Cisco NCS 1001,N/A,0/2-FPGA Module,Temperature Module
+7688730 [13],Cisco NCS 1001,N/A,0/3,Pre Amplifier Module
+7688730 [12],Cisco NCS 1001,N/A,0/3,Boost Amplifier Module
+7688730 [20],Cisco NCS 1001,N/A,0/3,NCS1000 Optical Amplifier FPGA Module
+7688732 [14],Cisco NCS 1001,N/A,0/3,NCS1000 Optical Amplifier FPGA Module
+7688732 [18],Cisco NCS 1001,N/A,0/3,Boost Amplifier Module
+7688732 [19],Cisco NCS 1001,N/A,0/3,Pre Amplifier Module
+143055941 [29],Cisco NCS 1001,N/A,0/3,Bst Channel Monitor Module
+143055941 [23],Cisco NCS 1001,N/A,0/3,Pre Channel Monitor Module
+143055941 [25],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM-CHECK"
+143055941 [19],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM"
+143055941 [44],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, LINE"
+143055941 [32],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, OSC"
+143055941 [41],Cisco NCS 1001,N/A,0/3,NCS1000 Optical Amplifier FPGA Module
+143055941 [20],Cisco NCS 1001,N/A,0/3,Boost Amplifier Module
+143055941 [50],Cisco NCS 1001,N/A,0/3,Pre Amplifier Module
+143055947 [35],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM"
+143055947 [56],Cisco NCS 1001,N/A,0/3,Boost Amplifier Module
+143055947 [41],Cisco NCS 1001,N/A,0/3,Pre Channel Monitor Module
+143055947 [46],Cisco NCS 1001,N/A,0/3,Bst Channel Monitor Module
+143055947 [47],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM-CHECK"
+143055947 [34],Cisco NCS 1001,N/A,0/3,Pre Amplifier Module
+143055947 [24],Cisco NCS 1001,N/A,0/3,NCS1000 Optical Amplifier FPGA Module
+143055947 [55],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, LINE"
+143055947 [51],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, OSC"
+143055948 [38],Cisco NCS 1001,N/A,0/3,NCS1000 Optical Amplifier FPGA Module
+143055948 [28],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM-CHECK"
+143055948 [32],Cisco NCS 1001,N/A,0/3,Pre Channel Monitor Module
+143055948 [10],Cisco NCS 1001,N/A,0/3,Pre Amplifier Module
+143055948 [60],Cisco NCS 1001,N/A,0/3,Bst Channel Monitor Module
+143055948 [21],Cisco NCS 1001,N/A,0/3,Boost Amplifier Module
+143055948 [49],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, COM"
+143055948 [12],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, LINE"
+143055948 [23],Cisco NCS 1001,N/A,0/3,"Ots Optical Port, OSC"
+7688730 [10],Cisco NCS 1001,NCS1K-EDFA,0/3-FPGA Module,Network Convergence System 1000 amplifier module
+7688730 [17],Cisco NCS 1001,N/A,0/3-FPGA Module,Temperature Module
+7688732 [29],Cisco NCS 1001,N/A,0/3-FPGA Module,Temperature Module
+7688732 [21],Cisco NCS 1001,NCS1K-EDFA,0/3-FPGA Module,Network Convergence System 1000 amplifier module
+143055941 [14],Cisco NCS 1001,NCS1K-EDFA,0/3-FPGA Module,Network Convergence System 1000 amplifier module
+143055941 [26],Cisco NCS 1001,N/A,0/3-FPGA Module,Temperature Module
+143055947 [4],Cisco NCS 1001,N/A,0/3-FPGA Module,Temperature Module
+143055947 [28],Cisco NCS 1001,NCS1K-EDFA,0/3-FPGA Module,Network Convergence System 1000 amplifier module
+143055948 [52],Cisco NCS 1001,NCS1K-EDFA,0/3-FPGA Module,Network Convergence System 1000 amplifier module
+143055948 [8],Cisco NCS 1001,N/A,0/3-FPGA Module,Temperature Module
+7688730 [2],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-PORT-0,Cisco SFP Pluggable Optics Module
+7688732 [1],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-PORT-0,Cisco SFP Pluggable Optics Module
+143055941 [54],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-PORT-0,Cisco SFP Pluggable Optics Module
+143055947 [25],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-PORT-0,Cisco SFP Pluggable Optics Module
+143055948 [13],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-PORT-0,Cisco SFP Pluggable Optics Module
+7688730 [5],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-SFP Container,Cisco SFP Pluggable Optics Module
+7688732 [12],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-SFP Container,Cisco SFP Pluggable Optics Module
+143055941 [12],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-SFP Container,Cisco SFP Pluggable Optics Module
+143055947 [1],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-SFP Container,Cisco SFP Pluggable Optics Module
+143055948 [24],Cisco NCS 1001,ONS-SC-Z3-1510,0/3-SFP Container,Cisco SFP Pluggable Optics Module
+143055941 [5],Cisco NCS 1001,NCS1K1-FAN,0/FT0,Network Convergence System 1001 Fan
+143055947 [26],Cisco NCS 1001,NCS1K1-FAN,0/FT0,Network Convergence System 1001 Fan
+143055948 [34],Cisco NCS 1001,NCS1K1-FAN,0/FT0,Network Convergence System 1001 Fan
+143055941 [2],Cisco NCS 1001,NCS1K1-FAN,0/FT1,Network Convergence System 1001 Fan
+143055947 [11],Cisco NCS 1001,NCS1K1-FAN,0/FT1,Network Convergence System 1001 Fan
+143055948 [47],Cisco NCS 1001,NCS1K1-FAN,0/FT1,Network Convergence System 1001 Fan
+143055941 [52],Cisco NCS 1001,NCS1K1-FAN,0/FT2,Network Convergence System 1001 Fan
+143055947 [12],Cisco NCS 1001,NCS1K1-FAN,0/FT2,Network Convergence System 1001 Fan
+143055948 [18],Cisco NCS 1001,NCS1K1-FAN,0/FT2,Network Convergence System 1001 Fan
+143055941 [42],Cisco NCS 1001,NCS1K1-FAN,0/FT3,Network Convergence System 1001 Fan
+143055947 [38],Cisco NCS 1001,NCS1K1-FAN,0/FT3,Network Convergence System 1001 Fan
+143055948 [56],Cisco NCS 1001,NCS1K1-FAN,0/FT3,Network Convergence System 1001 Fan
+143055941 [58],Cisco NCS 1001,NCS1K-2KW-AC2,0/PM0,Network Convergence System 1000 2KW AC PSU 2
+143055941 [35],Cisco NCS 1001,N/A,0/PM0,FPD Module
+143055947 [58],Cisco NCS 1001,N/A,0/PM0,FPD Module
+143055947 [15],Cisco NCS 1001,NCS1K-2KW-AC2,0/PM0,Network Convergence System 1000 2KW AC PSU 2
+143055948 [53],Cisco NCS 1001,NCS1K-2KW-AC2,0/PM0,Network Convergence System 1000 2KW AC PSU 2
+143055948 [42],Cisco NCS 1001,N/A,0/PM0,FPD Module
+143055941 [21],Cisco NCS 1001,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+143055941 [24],Cisco NCS 1001,N/A,0/PM1,FPD Module
+143055947 [13],Cisco NCS 1001,NCS1K-2KW-AC2,0/PM1,Network Convergence System 1000 2KW AC PSU 2
+143055947 [32],Cisco NCS 1001,N/A,0/PM1,FPD Module
+143055948 [16],Cisco NCS 1001,N/A,0/PM1,FPD Module
+143055948 [33],Cisco NCS 1001,NCS1K-2KW-AC2,0/PM1,Network Convergence System 1000 2KW AC PSU 2
+7688730 [28],Cisco NCS 1001,N/A,0/RP0,CPU Module
+7688732 [30],Cisco NCS 1001,N/A,0/RP0,CPU Module
+143055941 [30],Cisco NCS 1001,N/A,0/RP0,CPU Module
+143055947 [7],Cisco NCS 1001,N/A,0/RP0,CPU Module
+143055948 [7],Cisco NCS 1001,N/A,0/RP0,CPU Module
+7688730 [9],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+7688730 [1],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688730 [35],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688730 [37],Cisco NCS 1001,NCS1K-CNTLR2,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller 2
+7688730 [15],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688730 [19],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+7688730 [6],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+7688730 [22],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688730 [8],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688730 [32],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688730 [4],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688730 [33],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Backup BIOS programmed
+7688732 [16],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688732 [8],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688732 [7],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688732 [3],Cisco NCS 1001,NCS1K-CNTLR2,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller 2
+7688732 [33],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+7688732 [31],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688732 [17],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688732 [24],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688732 [9],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+7688732 [2],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688732 [20],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Backup BIOS programmed
+7688732 [32],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055941 [47],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055941 [1],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055941 [48],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055941 [8],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055941 [53],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055941 [16],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055941 [38],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055941 [6],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055941 [9],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055941 [15],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055941 [40],Cisco NCS 1001,NCS1K-CNTLR2,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller 2
+143055941 [39],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Backup BIOS programmed
+143055947 [2],Cisco NCS 1001,NCS1K-CNTLR2,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller 2
+143055947 [60],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055947 [33],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055947 [52],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055947 [44],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055947 [22],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055947 [3],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055947 [39],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055947 [45],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055947 [8],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055947 [16],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Backup BIOS programmed
+143055947 [14],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055948 [36],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055948 [9],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055948 [58],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055948 [46],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055948 [6],Cisco NCS 1001,NCS1K-CNTLR2,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller 2
+143055948 [57],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055948 [54],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055948 [22],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055948 [30],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055948 [51],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055948 [59],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Backup BIOS programmed
+143055948 [50],Cisco NCS 1001,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688730 [21],Cisco NCS 1001,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+7688732 [13],Cisco NCS 1001,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055941 [17],Cisco NCS 1001,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055947 [40],Cisco NCS 1001,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055948 [31],Cisco NCS 1001,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+7688730 [23],Cisco NCS 1001,NCS1001-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1001 line system 3 slots
+7688732 [15],Cisco NCS 1001,NCS1001-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1001 line system 3 slots
+143055941 [45],Cisco NCS 1001,NCS1001-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1001 line system 3 slots
+143055947 [57],Cisco NCS 1001,NCS1001-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1001 line system 3 slots
+143055948 [27],Cisco NCS 1001,NCS1001-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1001 line system 3 slots
+7688730 [30],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 1,Network Convergence System 1000 amplifier module
+7688732 [34],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 1,Network Convergence System 1000 amplifier module
+143055941 [28],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 1,Network Convergence System 1000 amplifier module
+143055947 [53],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 1,Network Convergence System 1000 amplifier module
+143055948 [5],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 1,Network Convergence System 1000 amplifier module
+7688730 [29],Cisco NCS 1001,NCS1K-PSM,Rack 0-Optical Module Slot 2,Network Convergence System 1000 protection module
+7688732 [23],Cisco NCS 1001,NCS1K-PSM,Rack 0-Optical Module Slot 2,Network Convergence System 1000 protection module
+143055941 [36],Cisco NCS 1001,NCS1K-PSM,Rack 0-Optical Module Slot 2,Network Convergence System 1000 protection module
+143055947 [27],Cisco NCS 1001,NCS1K-PSM,Rack 0-Optical Module Slot 2,Network Convergence System 1000 protection module
+143055948 [11],Cisco NCS 1001,NCS1K-PSM,Rack 0-Optical Module Slot 2,Network Convergence System 1000 protection module
+7688730 [36],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 3,Network Convergence System 1000 amplifier module
+7688732 [35],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 3,Network Convergence System 1000 amplifier module
+143055941 [56],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 3,Network Convergence System 1000 amplifier module
+143055947 [50],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 3,Network Convergence System 1000 amplifier module
+143055948 [3],Cisco NCS 1001,NCS1K-EDFA,Rack 0-Optical Module Slot 3,Network Convergence System 1000 amplifier module
+7688730 [16],Cisco NCS 1001,NCS1K-CNTLR2,Rack 0-Route Processor Slot,Network Convergence System 1000 Controller 2
+7688732 [27],Cisco NCS 1001,NCS1K-CNTLR2,Rack 0-Route Processor Slot,Network Convergence System 1000 Controller 2
+143055941 [3],Cisco NCS 1001,NCS1K-CNTLR2,Rack 0-Route Processor Slot,Network Convergence System 1000 Controller 2
+143055947 [49],Cisco NCS 1001,NCS1K-CNTLR2,Rack 0-Route Processor Slot,Network Convergence System 1000 Controller 2
+143055948 [35],Cisco NCS 1001,NCS1K-CNTLR2,Rack 0-Route Processor Slot,Network Convergence System 1000 Controller 2
+7688710 [56],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/0
+7688710 [77],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/21
+7688710 [107],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/9
+7688710 [8],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/18
+7688710 [57],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/24
+7688710 [37],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/16
+7688710 [46],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/22
+7688710 [97],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/15
+7688710 [87],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/2
+7688710 [58],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/20
+7688710 [34],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/14
+7688710 [18],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/4
+7688710 [105],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+7688710 [19],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/17
+7688710 [9],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/11
+7688710 [103],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/3
+7688710 [23],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/7
+7688710 [62],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/12
+7688710 [104],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/25
+7688710 [13],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/27
+7688710 [30],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/5
+7688710 [65],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/23
+7688710 [41],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/1
+7688710 [49],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+7688710 [86],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/19
+7688710 [38],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/6
+7688710 [40],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/13
+7688710 [113],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/8
+7688710 [88],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/10
+7688710 [95],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/26
+7688713 [22],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/5
+7688713 [3],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/27
+7688713 [51],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/14
+7688713 [74],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/16
+7688713 [23],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+7688713 [63],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/3
+7688713 [73],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/8
+7688713 [9],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/20
+7688713 [110],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/1
+7688713 [59],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/9
+7688713 [2],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/10
+7688713 [30],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/7
+7688713 [78],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/18
+7688713 [7],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/2
+7688713 [55],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/17
+7688713 [20],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/19
+7688713 [66],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/26
+7688713 [17],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/25
+7688713 [27],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/0
+7688713 [86],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/11
+7688713 [121],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/13
+7688713 [37],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/23
+7688713 [43],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/22
+7688713 [82],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+7688713 [106],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/21
+7688713 [88],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/24
+7688713 [108],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/4
+7688713 [115],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/15
+7688713 [39],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/6
+7688713 [40],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/12
+7688715 [25],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+7688715 [40],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+143055922 [69],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/10
+143055922 [121],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/17
+143055922 [111],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/25
+143055922 [29],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+143055922 [118],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+143055922 [134],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/27
+143055922 [82],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/14
+143055922 [103],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/6
+143055922 [48],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/23
+143055922 [99],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/12
+143055922 [120],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/1
+143055922 [85],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/0
+143055922 [135],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/24
+143055922 [62],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/15
+143055922 [42],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/20
+143055922 [132],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/26
+143055922 [73],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/9
+143055922 [41],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/18
+143055922 [109],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/7
+143055922 [101],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/2
+143055922 [24],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/5
+143055922 [115],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/13
+143055922 [92],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/22
+143055922 [80],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/21
+143055922 [15],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/16
+143055922 [122],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/8
+143055922 [57],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/3
+143055922 [94],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/4
+143055922 [3],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/11
+143055922 [108],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/19
+143055923 [45],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/25
+143055923 [52],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/23
+143055923 [72],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+143055923 [1],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/14
+143055923 [112],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/17
+143055923 [35],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/20
+143055923 [10],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/10
+143055923 [21],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/0
+143055923 [6],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+143055923 [133],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/11
+143055923 [8],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/19
+143055923 [117],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/16
+143055923 [54],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/21
+143055923 [106],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/13
+143055923 [33],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/9
+143055923 [44],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/12
+143055923 [60],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/15
+143055923 [132],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/24
+143055923 [79],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/22
+143055923 [24],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/2
+143055923 [76],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/5
+143055923 [99],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/3
+143055923 [86],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/8
+143055923 [118],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/1
+143055923 [98],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/7
+143055923 [55],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/26
+143055923 [39],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/18
+143055923 [107],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/6
+143055923 [136],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/4
+143055923 [4],Cisco NCS 1002,N/A,0/0,Parent Module for the OpticsContainer0/0/0/27
+143055945 [17],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+143055945 [38],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+143055946 [47],Cisco NCS 1002,N/A,0/0,Motherboard Module- Low Main Board
+143055946 [73],Cisco NCS 1002,N/A,0/0,CPU Module - Up Main Board
+7688715 [49],Cisco NCS 1002,ONS-CFP2-WDM,0/0-CFP2 1 Container ,Cisco 100GE CFP2 Pluggable Optics
+7688715 [2],Cisco NCS 1002,ONS-CFP2-WDM,0/0-CFP2 2 Container,Cisco 100GE CFP2 Pluggable Optics
+7688715 [30],Cisco NCS 1002,ONS-CFP2-WDM,0/0-CFP2 3 Container,Cisco 100GE CFP2 Pluggable Optics
+7688715 [53],Cisco NCS 1002,ONS-CFP2-WDM,0/0-CFP2 5 Container ,Cisco 100GE CFP2 Pluggable Optics
+7688715 [39],Cisco NCS 1002,ONS-CFP2-WDM,0/0-CFP2 7 Container,Cisco 100GE CFP2 Pluggable Optics
+7688710 [67],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [108],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [36],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [28],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+7688710 [70],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [109],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [101],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688710 [27],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688710 [75],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [59],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [51],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+7688710 [84],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [60],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [106],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [1],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+7688710 [11],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+7688710 [63],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [43],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [93],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688710 [73],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688710 [4],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+7688710 [42],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688710 [74],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+7688710 [83],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+7688710 [89],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+7688710 [114],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [81],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [102],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+7688713 [90],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [84],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688713 [33],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+7688713 [85],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [119],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+7688713 [105],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [28],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+7688713 [57],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [21],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688713 [91],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [44],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [69],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+7688713 [75],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [56],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688713 [14],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [26],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+7688713 [100],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [41],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [118],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688713 [81],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688713 [54],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [67],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [109],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+7688713 [48],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+7688713 [72],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [31],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688713 [71],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+7688713 [65],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+7688715 [35],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [66],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [58],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+7688715 [51],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [19],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [4],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688715 [34],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688715 [67],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [83],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [57],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+7688715 [50],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+7688715 [74],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [18],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [23],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [12],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [80],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688715 [6],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688715 [45],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+7688715 [20],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [52],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [9],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+7688715 [13],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+7688715 [42],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+7688715 [54],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+7688715 [1],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+7688715 [47],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688715 [8],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+7688715 [15],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [105],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [51],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055922 [129],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055922 [19],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+143055922 [74],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [58],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+143055922 [96],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+143055922 [9],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+143055922 [75],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [98],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055922 [123],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+143055922 [113],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [34],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [12],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+143055922 [72],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055922 [50],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [104],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055922 [22],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+143055922 [79],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [130],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [83],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [86],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [17],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+143055922 [76],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [60],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [100],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055922 [95],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+143055922 [93],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [32],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+143055923 [20],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+143055923 [81],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [93],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [82],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [103],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [123],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+143055923 [30],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+143055923 [110],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [43],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+143055923 [73],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [88],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055923 [80],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [85],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [65],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [91],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055923 [100],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [70],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [126],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+143055923 [31],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+143055923 [135],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [57],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [102],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055923 [122],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055923 [18],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055923 [2],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055923 [56],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+143055923 [37],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+143055945 [34],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+143055945 [71],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055945 [55],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055945 [63],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [24],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [45],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [8],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [26],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055945 [20],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+143055945 [42],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [50],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+143055945 [5],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [28],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [7],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+143055945 [67],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [23],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [64],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+143055945 [35],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+143055945 [33],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [25],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+143055945 [58],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055945 [60],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [21],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055945 [51],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [70],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+143055945 [59],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+143055945 [47],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055945 [75],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [4],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [64],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [75],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PORT 05 CFP2 firmware
+143055946 [59],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 13 CFP2 firmware
+143055946 [14],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055946 [78],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 
+143055946 [61],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control FPGA Up Main board
+143055946 [79],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [10],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [80],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055946 [34],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [22],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [49],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055946 [15],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [71],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [5],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Upper board slice 1 coherent DSP
+143055946 [38],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [55],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [7],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Niyantaa Control Backup FPGA Up Main board
+143055946 [24],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 06 CFP2 firmware
+143055946 [60],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Port 12 CFP2 firmware
+143055946 [69],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [46],Cisco NCS 1002,NCS1002-K9,0/0-CPU Module - Up Main Board,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055946 [9],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [21],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module 1
+143055946 [52],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,PCI Module
+143055946 [74],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+143055946 [57],Cisco NCS 1002,N/A,0/0-CPU Module - Up Main Board,Sensor Module
+7688710 [47],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [96],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688710 [16],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [17],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [3],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [116],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+7688710 [45],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688710 [99],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688710 [61],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+7688710 [82],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+7688710 [111],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [6],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [21],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+7688710 [110],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [91],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [32],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [12],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [98],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+7688710 [79],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+7688710 [14],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [26],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+7688710 [71],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688710 [2],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+7688710 [115],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+7688710 [31],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [55],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688710 [5],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [34],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+7688713 [116],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688713 [10],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+7688713 [4],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688713 [93],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+7688713 [42],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [58],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [120],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+7688713 [107],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [97],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+7688713 [36],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [68],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [35],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+7688713 [104],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [61],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [19],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [29],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [80],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [38],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+7688713 [94],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [92],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [24],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688713 [102],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688713 [79],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+7688713 [95],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+7688713 [6],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688713 [83],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [10],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+7688715 [82],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688715 [21],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+7688715 [69],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688715 [17],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [26],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+7688715 [46],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+7688715 [44],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [11],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+7688715 [61],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [59],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+7688715 [72],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [62],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [14],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+7688715 [55],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [29],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [48],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+7688715 [64],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [84],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [56],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [27],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+7688715 [16],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+7688715 [65],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [85],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+7688715 [79],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [24],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+7688715 [36],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [119],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [10],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [21],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [44],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [110],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [16],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [20],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+143055922 [59],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055922 [1],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+143055922 [90],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [18],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+143055922 [66],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+143055922 [88],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055922 [31],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [125],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [139],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+143055922 [52],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [102],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+143055922 [114],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [65],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [138],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+143055922 [5],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [30],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055922 [107],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055922 [116],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+143055922 [124],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055922 [38],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+143055923 [104],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [28],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+143055923 [94],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+143055923 [75],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [19],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [113],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+143055923 [22],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+143055923 [97],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+143055923 [38],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055923 [63],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [9],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [111],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [5],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [62],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+143055923 [131],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055923 [83],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+143055923 [26],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+143055923 [125],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [46],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [138],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [48],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055923 [64],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [27],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [124],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [92],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055923 [115],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055923 [101],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+143055945 [11],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [61],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055945 [32],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [30],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [57],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [15],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+143055945 [81],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+143055945 [41],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [46],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [18],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [77],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [48],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055945 [12],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+143055945 [66],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [56],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [9],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [44],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [14],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+143055945 [37],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055945 [43],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055945 [53],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+143055945 [19],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [78],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+143055945 [4],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+143055945 [76],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055945 [29],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+143055945 [6],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+143055946 [39],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control FPGA Low Main Board
+143055946 [12],Cisco NCS 1002,N/A,0/0-Low Main Board,Port CFP2 firmware
+143055946 [25],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [68],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 1
+143055946 [19],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [81],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055946 [30],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [53],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [45],Cisco NCS 1002,N/A,0/0-Low Main Board,Storage Module - SPI
+143055946 [72],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [77],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [62],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055946 [32],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [13],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [11],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [28],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [35],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [37],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [18],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 27 CFP2 firmware
+143055946 [16],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 26 CFP2 firmware
+143055946 [63],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [27],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module 
+143055946 [76],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 4 coherent DSP
+143055946 [70],Cisco NCS 1002,N/A,0/0-Low Main Board,Niyantaa Control Backup FPGA Low Main board
+143055946 [40],Cisco NCS 1002,N/A,0/0-Low Main Board,Sensor Module
+143055946 [3],Cisco NCS 1002,N/A,0/0-Low Main Board,Port 20 CFP2 firmware
+143055946 [50],Cisco NCS 1002,N/A,0/0-Low Main Board,Lower board slice 3 coherent DSP
+143055922 [131],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/0,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [13],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/0,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+7688713 [101],Cisco NCS 1002,QSFP-100G-CWDM4-S,0/0-Optics0/0/0/11,Cisco 100G QSFP28 CWDM4 Pluggable Optics Module
+143055922 [128],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/12,Cisco CFP2 DWDM Pluggable Optics
+143055923 [12],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/12,Cisco CFP2 DWDM Pluggable Optics
+143055922 [112],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/13,Cisco CFP2 DWDM Pluggable Optics
+143055923 [134],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/13,Cisco CFP2 DWDM Pluggable Optics
+143055922 [63],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/20,Cisco CFP2 DWDM Pluggable Optics
+143055923 [67],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/20,Cisco CFP2 DWDM Pluggable Optics
+143055922 [47],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/22,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [51],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/22,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [64],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/23,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [89],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/23,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [55],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/24,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [59],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-Optics0/0/0/24,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [136],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/26,Cisco CFP2 DWDM Pluggable Optics
+143055923 [36],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/26,Cisco CFP2 DWDM Pluggable Optics
+143055922 [37],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/27,Cisco CFP2 DWDM Pluggable Optics
+143055923 [127],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/27,Cisco CFP2 DWDM Pluggable Optics
+7688713 [76],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055922 [70],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055923 [25],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055922 [35],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/6,Cisco CFP2 DWDM Pluggable Optics
+143055923 [128],Cisco NCS 1002,ONS-CFP2-WDM,0/0-Optics0/0/0/6,Cisco CFP2 DWDM Pluggable Optics
+143055922 [36],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/0,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [61],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/0,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+7688713 [98],Cisco NCS 1002,QSFP-100G-CWDM4-S,0/0-OpticsContainer0/0/0/11,Cisco 100G QSFP28 CWDM4 Pluggable Optics Module
+143055922 [26],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/12,Cisco CFP2 DWDM Pluggable Optics
+143055923 [3],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/12,Cisco CFP2 DWDM Pluggable Optics
+143055922 [106],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/13,Cisco CFP2 DWDM Pluggable Optics
+143055923 [84],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/13,Cisco CFP2 DWDM Pluggable Optics
+143055922 [53],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/20,Cisco CFP2 DWDM Pluggable Optics
+143055923 [15],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/20,Cisco CFP2 DWDM Pluggable Optics
+143055922 [89],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/22,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [66],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/22,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [23],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/23,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [74],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/23,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [33],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/24,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055923 [68],Cisco NCS 1002,QSFP-100G-LR4-S,0/0-OpticsContainer0/0/0/24,Cisco 100G QSFP28 LR4-S Pluggable Optics Module
+143055922 [126],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/26,Cisco CFP2 DWDM Pluggable Optics
+143055923 [41],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/26,Cisco CFP2 DWDM Pluggable Optics
+143055922 [45],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/27,Cisco CFP2 DWDM Pluggable Optics
+143055923 [120],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/27,Cisco CFP2 DWDM Pluggable Optics
+7688713 [112],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055922 [11],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055923 [119],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/5,Cisco CFP2 DWDM Pluggable Optics
+143055922 [13],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/6,Cisco CFP2 DWDM Pluggable Optics
+143055923 [96],Cisco NCS 1002,ONS-CFP2-WDM,0/0-OpticsContainer0/0/0/6,Cisco CFP2 DWDM Pluggable Optics
+7688710 [22],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/12,Optical Channel Module
+7688713 [70],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/12,Optical Channel Module
+143055922 [8],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/12,Optical Channel Module
+143055923 [116],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/12,Optical Channel Module
+7688710 [72],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/13,Optical Channel Module
+7688713 [15],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/13,Optical Channel Module
+143055922 [78],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/13,Optical Channel Module
+143055923 [137],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/13,Optical Channel Module
+7688710 [20],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/19,Optical Channel Module
+7688713 [45],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/19,Optical Channel Module
+143055922 [40],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/19,Optical Channel Module
+143055923 [49],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/19,Optical Channel Module
+7688710 [94],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/20,Optical Channel Module
+7688713 [64],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/20,Optical Channel Module
+143055922 [68],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/20,Optical Channel Module
+143055923 [40],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/20,Optical Channel Module
+7688710 [100],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/26,Optical Channel Module
+7688713 [8],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/26,Optical Channel Module
+143055922 [6],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/26,Optical Channel Module
+143055923 [11],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/26,Optical Channel Module
+7688710 [85],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/27,Optical Channel Module
+7688713 [96],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/27,Optical Channel Module
+143055922 [56],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/27,Optical Channel Module
+143055923 [129],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/27,Optical Channel Module
+7688710 [80],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/5,Optical Channel Module
+7688713 [60],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/5,Optical Channel Module
+143055922 [2],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/5,Optical Channel Module
+143055923 [47],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/5,Optical Channel Module
+7688710 [78],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/6,Optical Channel Module
+7688713 [52],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/6,Optical Channel Module
+143055922 [4],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/6,Optical Channel Module
+143055923 [105],Cisco NCS 1002,N/A,0/0-OpticsCtlr0/0/0/6,Optical Channel Module
+7688715 [86],Cisco NCS 1002,ONS-CFP2-WDM,0/0-PORT-12,Cisco 100GE CFP2 Pluggable Optics
+7688715 [71],Cisco NCS 1002,ONS-CFP2-WDM,0/0-PORT-13,Cisco 100GE CFP2 Pluggable Optics
+7688715 [76],Cisco NCS 1002,ONS-CFP2-WDM,0/0-PORT-20,Cisco 100GE CFP2 Pluggable Optics
+7688715 [41],Cisco NCS 1002,ONS-CFP2-WDM,0/0-PORT-27,Cisco 100GE CFP2 Pluggable Optics
+7688715 [68],Cisco NCS 1002,ONS-CFP2-WDM,0/0-PORT-6,Cisco 100GE CFP2 Pluggable Optics
+7688710 [24],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+7688713 [50],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+143055922 [67],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+143055923 [42],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+143055945 [39],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+143055946 [66],Cisco NCS 1002,NCS1K-FTA,0/FT0,Network Convergence System 1000 Fan
+7688710 [52],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+7688713 [12],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+143055922 [97],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+143055923 [90],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+143055945 [79],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+143055946 [20],Cisco NCS 1002,NCS1K-FTA,0/FT1,Network Convergence System 1000 Fan
+7688710 [39],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+7688713 [62],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+143055922 [117],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+143055923 [7],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+143055945 [74],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+143055946 [23],Cisco NCS 1002,NCS1K-FTA,0/FT2,Network Convergence System 1000 Fan
+7688710 [35],Cisco NCS 1002,N/A,0/PM0,FPD Module
+7688710 [29],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+7688713 [113],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+7688713 [53],Cisco NCS 1002,N/A,0/PM0,FPD Module
+143055922 [43],Cisco NCS 1002,N/A,0/PM0,FPD Module
+143055922 [25],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+143055923 [114],Cisco NCS 1002,N/A,0/PM0,FPD Module
+143055923 [77],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+143055945 [80],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+143055945 [69],Cisco NCS 1002,N/A,0/PM0,FPD Module
+143055946 [54],Cisco NCS 1002,NCS1K-2KW-AC,0/PM0,Network Convergence System 1000 2KW AC PSU
+143055946 [31],Cisco NCS 1002,N/A,0/PM0,FPD Module
+7688710 [68],Cisco NCS 1002,N/A,0/PM1,FPD Module
+7688710 [50],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+7688713 [99],Cisco NCS 1002,N/A,0/PM1,FPD Module
+7688713 [16],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+143055922 [27],Cisco NCS 1002,N/A,0/PM1,FPD Module
+143055922 [77],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+143055923 [130],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+143055923 [58],Cisco NCS 1002,N/A,0/PM1,FPD Module
+143055945 [49],Cisco NCS 1002,N/A,0/PM1,FPD Module
+143055945 [10],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+143055946 [17],Cisco NCS 1002,N/A,0/PM1,FPD Module
+143055946 [56],Cisco NCS 1002,NCS1K-2KW-AC,0/PM1,Network Convergence System 1000 2KW AC PSU
+7688710 [117],Cisco NCS 1002,N/A,0/RP0,CPU Module
+7688713 [87],Cisco NCS 1002,N/A,0/RP0,CPU Module
+7688715 [28],Cisco NCS 1002,N/A,0/RP0,CPU Module
+143055922 [61],Cisco NCS 1002,N/A,0/RP0,CPU Module
+143055923 [50],Cisco NCS 1002,N/A,0/RP0,CPU Module
+143055945 [3],Cisco NCS 1002,N/A,0/RP0,CPU Module
+143055946 [42],Cisco NCS 1002,N/A,0/RP0,CPU Module
+7688710 [66],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+7688710 [44],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688710 [69],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688710 [53],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688710 [33],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+7688710 [7],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+7688710 [54],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+7688710 [64],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688710 [15],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688710 [25],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688710 [48],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+7688710 [92],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688713 [18],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+7688713 [13],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688713 [103],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+7688713 [1],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688713 [47],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+7688713 [89],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688713 [77],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688713 [5],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688713 [32],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+7688713 [111],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688713 [114],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688713 [25],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+7688715 [75],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688715 [5],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688715 [33],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+7688715 [60],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+7688715 [43],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688715 [32],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+7688715 [7],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+7688715 [81],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+7688715 [78],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+7688715 [31],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+7688715 [22],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+7688715 [37],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688715 [77],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688715 [3],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055922 [84],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055922 [87],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055922 [28],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055922 [133],Cisco NCS 1002,NCS1K-CNTLR-K9,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+143055922 [7],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055922 [91],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055922 [71],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055922 [14],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055922 [39],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055922 [137],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055922 [127],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+143055922 [46],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055923 [95],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+143055923 [29],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055923 [87],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055923 [121],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+143055923 [23],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055923 [53],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055923 [71],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055923 [14],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055923 [17],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055923 [109],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055923 [16],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055923 [139],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055945 [22],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055945 [65],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055945 [54],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055945 [36],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055945 [52],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+143055945 [40],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055945 [72],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+143055945 [1],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055945 [31],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055945 [16],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055945 [73],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055945 [62],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055946 [6],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055946 [33],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for Admin VM
+143055946 [8],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Virtual Processor Module for RP-XR VM
+143055946 [65],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Primary BIOS programmed
+143055946 [36],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055946 [26],Cisco NCS 1002,NCS1K-CNTLR,0/RP0-CPU Complex  (Davenport),Network Convergence System 1000 Controller
+143055946 [41],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Sensor Module
+143055946 [51],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Processor Module
+143055946 [43],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+143055946 [67],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),"Backup BIOS, if primary BIOS failed to boot"
+143055946 [48],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),Dual Inline Memory Module - DIMM
+143055946 [58],Cisco NCS 1002,N/A,0/RP0-CPU Complex  (Davenport),CPU FPGA FPD Module
+7688710 [10],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+7688713 [11],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+7688715 [73],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055922 [49],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055923 [69],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055945 [2],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+143055946 [2],Cisco NCS 1002,N/A,0/RP0-Hot Spot Sensor Module,Storage Module - SPI
+7688710 [90],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688713 [46],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688715 [70],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055922 [32],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055923 [108],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055945 [68],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055946 [1],Cisco NCS 1002,NCS1002-K9,Rack 0-LineCard Chassis backplane,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688710 [112],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+7688713 [117],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+7688715 [38],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+143055922 [81],Cisco NCS 1002,NCS1K-CNTLR-K9,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+143055923 [34],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+143055945 [27],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+143055946 [29],Cisco NCS 1002,NCS1K-CNTLR,Rack 0-RouteProcessor Slot 0,Network Convergence System 1000 Controller
+7688710 [76],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688713 [49],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+7688715 [63],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055922 [54],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055923 [78],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055945 [13],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055946 [44],Cisco NCS 1002,NCS1002-K9,Rack 0-Virtual Line Card ,Network Convergence System 1002 20 QSFP28/QSFP+ slots
+143055918 [12],Cisco NCS 2006,NCS2K-MF-DEG-5,MF-DEG-5,No Description Listed
+143055919 [5],Cisco NCS 2006,NCS2K-MF-DEG-5,MF-DEG-5,No Description Listed
+143055920 [8],Cisco NCS 2006,NCS2K-MF-DEG-5,MF-DEG-5,No Description Listed
+143055921 [19],Cisco NCS 2006,NCS2K-MF-DEG-5-CV,MF-DEG-5-CV,No Description Listed
+143055918 [14],Cisco NCS 2006,NCS2K-MF-M16LC-CV,MF-M16LC-CV,No Description Listed
+143055921 [13],Cisco NCS 2006,NCS2K-MF-M16LC-CV,MF-M16LC-CV,No Description Listed
+7688707 [17],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+7688707 [22],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+7688707 [39],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+7688707 [10],Cisco NCS 2006,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688707 [3],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+143055919 [8],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+143055920 [10],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+143055920 [24],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+143055921 [20],Cisco NCS 2006,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+143055918 [17],Cisco NCS 2006,NCS2K-MF-UPG-4,MF-UPG-4,No Description Listed
+143055919 [11],Cisco NCS 2006,NCS2K-MF-UPG-4,MF-UPG-4,No Description Listed
+143055920 [2],Cisco NCS 2006,NCS2K-MF-UPG-4,MF-UPG-4,No Description Listed
+143055921 [23],Cisco NCS 2006,NCS2K-MF-UPG-4-CV,MF-UPG-4-CV,No Description Listed
+7688693 [5],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688696 [2],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688697 [4],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688698 [3],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688699 [3],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688700 [4],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688701 [3],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688705 [7],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688706 [6],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688708 [3],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688709 [6],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688721 [7],Cisco NCS 2006,MECH-UNIT,No Location Listed,MECH-UNIT
+7688707 [40],Cisco NCS 2006,NCS2K-PPMESH8-5AD,PPMESH8-5AD,No Description Listed
+7688703 [12],Cisco NCS 2006,MF-8X10G-FO,PSHELF-1[PSHELF-MF10-6RU],MF-8X10G-FO
+7688703 [14],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],MF-MPO-16LC
+7688703 [25],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],MF-MPO-16LC
+7688703 [1],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],MF-MPO-16LC
+7688703 [29],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],MF-MPO-16LC
+7688703 [22],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],MF-MPO-16LC
+7688707 [36],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],PSUSB-1-4
+7688707 [2],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],PSUSB-1-1
+7688707 [34],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],PSUSB-1-3
+7688707 [14],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],PSUSB-1-5
+7688707 [12],Cisco NCS 2006,MF-MPO-16LC,PSHELF-1[PSHELF-MF10-6RU],PSUSB-1-2
+7688707 [23],Cisco NCS 2006,NCS2K-MF10-6RU,PSHELF-1[PSHELF-MF10-6RU],No Description Listed
+7688703 [16],Cisco NCS 2006,MF-PPMESH8-5AD,RACK-1,MF-PPMESH8-5AD
+7688703 [10],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+7688704 [7],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+7688707 [1],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+7688707 [41],Cisco NCS 2006,MF-PPMESH8-5AD,RACK-1,USBP-1-A-4
+143055918 [3],Cisco NCS 2006,MF-DEG-5,RACK-1,USBP-1-A-3
+143055918 [8],Cisco NCS 2006,MF-UPG-4,RACK-1,USBP-1-A-1
+143055918 [11],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+143055918 [1],Cisco NCS 2006,MF-MPO-16LC,RACK-1,MF-MPO-16LC
+143055918 [7],Cisco NCS 2006,MF-MPO-16LC,RACK-1,MF-MPO-16LC
+143055919 [3],Cisco NCS 2006,MF-DEG-5,RACK-1,USBP-1-A-3
+143055919 [13],Cisco NCS 2006,MF-MPO-16LC,RACK-1,USBP-1-B-1
+143055919 [6],Cisco NCS 2006,MF-UPG-4,RACK-1,USBP-1-A-1
+143055919 [1],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+143055920 [19],Cisco NCS 2006,MF-MPO-16LC,RACK-1,USBP-1-A-5
+143055920 [15],Cisco NCS 2006,MF-DEG-5,RACK-1,USBP-1-A-3
+143055920 [23],Cisco NCS 2006,MF-MPO-16LC,RACK-1,USBP-1-B-1
+143055920 [18],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+143055920 [16],Cisco NCS 2006,MF-UPG-4,RACK-1,USBP-1-A-1
+143055921 [15],Cisco NCS 2006,MECH-UNIT,RACK-1,MECH-UNIT
+143055921 [2],Cisco NCS 2006,MF-UPG-4,RACK-1,USBP-1-A-1
+143055921 [5],Cisco NCS 2006,MF-MPO-16LC,RACK-1,USBP-1-B-1
+143055921 [22],Cisco NCS 2006,MF-DEG-5,RACK-1,USBP-1-A-3
+143055921 [6],Cisco NCS 2006,MF-MPO-16LC,RACK-1,USBP-1-A-5
+7688693 [6],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688693 [4],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688693 [1],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688693 [7],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688693 [3],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688693 [2],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688695 [4],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688695 [6],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688695 [3],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688695 [2],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688695 [5],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688695 [1],Cisco NCS 2006,15454-M-TNCE-K9,SHELF,TNC-E
+7688696 [6],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688696 [7],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688696 [4],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688696 [5],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688696 [1],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF,RAMAN-CTP
+7688696 [3],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF,EDRA-2-26
+7688697 [7],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688697 [6],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688697 [2],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF,EDRA-2-26
+7688697 [1],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688697 [5],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688697 [3],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688698 [2],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688698 [7],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688698 [4],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688698 [5],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688698 [1],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF,EDRA-2-26
+7688698 [6],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688699 [2],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688699 [6],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688699 [1],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688699 [5],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688699 [4],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688700 [1],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688700 [5],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688700 [6],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688700 [2],Cisco NCS 2006,15454-M-TNCE-K9,SHELF,TNC-E
+7688700 [3],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688701 [6],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688701 [5],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688701 [4],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688701 [1],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688701 [2],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688705 [6],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688705 [2],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688705 [1],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688705 [5],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688705 [4],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688705 [3],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688706 [3],Cisco NCS 2006,NCS2006-ECU,SHELF,No Description Listed
+7688706 [1],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688706 [4],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688706 [5],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688706 [2],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688706 [10],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688706 [7],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688706 [8],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688706 [9],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688708 [5],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688708 [6],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688708 [2],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688708 [4],Cisco NCS 2006,15454-M-TNCE-K9,SHELF,TNC-E
+7688708 [1],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688709 [8],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF,RAMAN-CTP
+7688709 [5],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688709 [4],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688709 [1],Cisco NCS 2006,15454-OPT-EDFA-17,SHELF,OPT-EDFA-17
+7688709 [7],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688709 [3],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF,EDRA-2-26
+7688709 [2],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF,TNCS-O
+7688721 [4],Cisco NCS 2006,15454-M-TNCE-K9,SHELF,TNC-E
+7688721 [6],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688721 [3],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688721 [2],Cisco NCS 2006,15454-M6-ECU,SHELF,No Description Listed
+7688721 [8],Cisco NCS 2006,15454-M-FILLER,SHELF,FILLER
+7688721 [5],Cisco NCS 2006,NCS2K-EDRA1-26C,SHELF,EDRA-1-26
+7688721 [1],Cisco NCS 2006,15454-M-TNC-K9,SHELF,TNC
+7688703 [5],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+7688703 [31],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+7688703 [7],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M6],TNCS-O
+7688703 [9],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF-1[SHELF-M6],RAMAN-CTP
+7688703 [11],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M6],16-AD-CCOFS
+7688703 [20],Cisco NCS 2006,NCS2006-ECU,SHELF-1[SHELF-M6],No Description Listed
+7688703 [4],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-1[SHELF-M6],TNC-E
+7688703 [2],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+7688704 [6],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF-1[SHELF-M6],EDRA-2-26
+7688704 [4],Cisco NCS 2006,NCS2K-16-WXC-FS,SHELF-1[SHELF-M6],16-WXC-FS
+7688704 [5],Cisco NCS 2006,NCS2K-EDRA2-26C,SHELF-1[SHELF-M6],EDRA-2-26
+7688704 [1],Cisco NCS 2006,15454-M-TNC-K9,SHELF-1[SHELF-M6],TNC
+7688704 [2],Cisco NCS 2006,15454-M-TNC-K9,SHELF-1[SHELF-M6],TNC
+7688704 [3],Cisco NCS 2006,15454-M6-ECU,SHELF-1[SHELF-M6],No Description Listed
+7688707 [38],Cisco NCS 2006,NCS2006-ECU-S,SHELF-1[SHELF-M6],No Description Listed
+7688707 [28],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M6],TNCS-O
+7688707 [19],Cisco NCS 2006,NCS2K-20-SMRFS,SHELF-1[SHELF-M6],20-SMRFS
+7688707 [32],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+7688707 [37],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+7688707 [29],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M6],TNCS-O
+7688707 [27],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M6],16-AD-CCOFS
+7688707 [33],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF-1[SHELF-M6],RAMAN-CTP
+143055918 [2],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055918 [6],Cisco NCS 2006,NCS2006-ECU-S,SHELF-1[SHELF-M6],No Description Listed
+143055918 [18],Cisco NCS 2006,NCS2K-20-SMRFS,SHELF-1[SHELF-M6],20-SMRFS
+143055918 [13],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M6],TNCS-O
+143055919 [9],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M6],TNCS-O
+143055919 [15],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055919 [7],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+143055919 [14],Cisco NCS 2006,NCS2006-ECU,SHELF-1[SHELF-M6],No Description Listed
+143055920 [12],Cisco NCS 2006,NCS2006-ECU,SHELF-1[SHELF-M6],No Description Listed
+143055920 [22],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055920 [17],Cisco NCS 2006,NCS2K-400GXP-L-K9,SHELF-1[SHELF-M6],400G-XP
+143055920 [5],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+143055920 [11],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M6],16-AD-CCOFS
+143055920 [9],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+143055920 [3],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055921 [4],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055921 [9],Cisco NCS 2006,NCS2K-400G-XP,SHELF-1[SHELF-M6],400G-XP
+143055921 [18],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M6],20-SMRFS-CV
+143055921 [24],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M6],16-AD-CCOFS
+143055921 [1],Cisco NCS 2006,15454-M6-ECU,SHELF-1[SHELF-M6],No Description Listed
+143055921 [14],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-1[SHELF-M6],TNC-S
+143055921 [10],Cisco NCS 2006,NCS2K-20-SMRFS,SHELF-1[SHELF-M6],20-SMRFS
+7688707 [24],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-19[SHELF-M15],MR-MXP
+7688707 [9],Cisco NCS 2006,NCS2K-100G-CK-C,SHELF-19[SHELF-M15],100G-CK-C 1528.77
+7688707 [11],Cisco NCS 2006,NCS2K-200G-CK,SHELF-19[SHELF-M15],200G-CK-LC 1528.77
+7688707 [4],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-19[SHELF-M15],MR-MXP
+7688707 [6],Cisco NCS 2006,NCS2K-400G-XP,SHELF-19[SHELF-M15],400G-XP
+7688707 [13],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-19[SHELF-M15],MR-MXP
+7688707 [30],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-19[SHELF-M15],TNC-S
+7688707 [16],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-19[SHELF-M15],MR-MXP
+7688707 [8],Cisco NCS 2006,NCS2015-ECU,SHELF-19[SHELF-M15],No Description Listed
+7688707 [35],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-19[SHELF-M15],200G-CK-LC 1528.77
+7688707 [7],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-19[SHELF-M15],TNC-S
+7688707 [18],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-19[SHELF-M15],200G-CK-LC 1528.77
+7688707 [21],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-19[SHELF-M15],MR-MXP
+7688703 [28],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688703 [21],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-2[SHELF-M6],MR-MXP
+7688703 [23],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+7688703 [3],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688703 [18],Cisco NCS 2006,NCS2K-400G-XP,SHELF-2[SHELF-M6],400G-XP
+7688703 [8],Cisco NCS 2006,NCS2K-100G-CK-C,SHELF-2[SHELF-M6],100G-CK-C 1528.77
+7688703 [6],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+7688707 [15],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688707 [26],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-2[SHELF-M6],MR-MXP
+7688707 [42],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688707 [20],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+7688707 [25],Cisco NCS 2006,15454-AR-MXP=,SHELF-2[SHELF-M6],15454-AR-MXP
+7688707 [5],Cisco NCS 2006,15454-AR-XPE,SHELF-2[SHELF-M6],AR-XPE
+7688707 [31],Cisco NCS 2006,NCS2K-MR-MXP-LIC,SHELF-2[SHELF-M6],MR-MXP
+143055918 [10],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+143055918 [19],Cisco NCS 2006,15454-M-100G-LC-C,SHELF-2[SHELF-M6],100G-LC-C 1528.77
+143055918 [5],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-2[SHELF-M6],16-AD-CCOFS
+143055918 [16],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055918 [4],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-2[SHELF-M6],20-SMRFS-CV
+143055918 [15],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055918 [9],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+143055919 [10],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055919 [4],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-2[SHELF-M6],20-SMRFS-CV
+143055919 [17],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+143055919 [18],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+143055919 [12],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-2[SHELF-M6],16-AD-CCOFS
+143055919 [16],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055919 [2],Cisco NCS 2006,15454-M-100G-LC-C,SHELF-2[SHELF-M6],100G-LC-C
+143055920 [4],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-2[SHELF-M6],TNCS-O
+143055920 [6],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055920 [14],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF-2[SHELF-M6],RAMAN-CTP
+143055920 [20],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC
+143055920 [7],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-2[SHELF-M6],16-AD-CCOFS
+143055920 [1],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-2[SHELF-M6],20-SMRFS-CV
+143055920 [13],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+143055920 [21],Cisco NCS 2006,15454-M-100G-LC-C=,SHELF-2[SHELF-M6],100G-LC-C
+143055921 [17],Cisco NCS 2006,15454-M-RAMAN-CTP=,SHELF-2[SHELF-M6],RAMAN-CTP
+143055921 [7],Cisco NCS 2006,15454-M-100G-LC-C,SHELF-2[SHELF-M6],100G-LC-C 1528.77
+143055921 [21],Cisco NCS 2006,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+143055921 [11],Cisco NCS 2006,NCS2K-TNCS-O-K9,SHELF-2[SHELF-M6],TNCS-O
+143055921 [3],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC
+143055921 [8],Cisco NCS 2006,NCS2K-TNCS-K9,SHELF-2[SHELF-M6],TNC-S
+143055921 [16],Cisco NCS 2006,NCS2K-16-AD-CCOFS,SHELF-2[SHELF-M6],16-AD-CCOFS
+143055921 [12],Cisco NCS 2006,NCS2K-20-SMRFS-CV,SHELF-2[SHELF-M6],20-SMRFS-CV
+7688703 [26],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-3[SHELF-M6],200G-CK-LC 1528.77
+7688703 [19],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-3[SHELF-M6],TNC-E
+7688703 [15],Cisco NCS 2006,15454-M-TNCE-K9,SHELF-3[SHELF-M6],TNC-E
+7688703 [17],Cisco NCS 2006,15454-PSM=,SHELF-3[SHELF-M6],PSM
+7688703 [27],Cisco NCS 2006,15454-AR-XPE,SHELF-3[SHELF-M6],AR-XPE
+7688703 [13],Cisco NCS 2006,15454-M6-ECU,SHELF-3[SHELF-M6],No Description Listed
+7688703 [24],Cisco NCS 2006,15454-AR-MXP,SHELF-3[SHELF-M6],AR-MXP
+7688703 [30],Cisco NCS 2006,NCS2K-200G-CK-C,SHELF-3[SHELF-M6],200G-CK-LC 1528.77
+7688694 [8],Cisco NCS 2015,NCS2K-MF-DEG-5-CV,MF-DEG-5,No Description Listed
+7688694 [16],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [34],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [10],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [38],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [26],Cisco NCS 2015,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+7688694 [42],Cisco NCS 2015,NCS2K-MF-MPO-16LC,MF-MPO-16LC,No Description Listed
+7688694 [11],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [7],Cisco NCS 2015,NCS2K-MF-M16LC-CV,MF-MPO-16LC,No Description Listed
+7688694 [17],Cisco NCS 2015,NCS2K-MF-UPG-4-CV,MF-UPG-4,No Description Listed
+7688694 [12],Cisco NCS 2015,MF-UPG-4,PSHELF-1[PSHELF-MF-6RU],PSUSB-1-14
+7688694 [9],Cisco NCS 2015,MF-DEG-5,PSHELF-1[PSHELF-MF-6RU],PSUSB-1-1
+7688694 [13],Cisco NCS 2015,NCS2K-MF-6RU,PSHELF-1[PSHELF-MF-6RU],No Description Listed
+7688694 [32],Cisco NCS 2015,NCS2K-MF10-6RU,PSHELF-2[PSHELF-MF10-6RU],No Description Listed
+7688694 [31],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-7
+7688694 [22],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-6
+7688694 [19],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-1
+7688694 [41],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-2
+7688694 [4],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-8
+7688694 [37],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-4
+7688694 [27],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-3
+7688694 [39],Cisco NCS 2015,MF-MPO-16LC,PSHELF-2[PSHELF-MF10-6RU],PSUSB-2-5
+7688694 [28],Cisco NCS 2015,MECH-UNIT,RACK-1,MECH-UNIT
+7688694 [45],Cisco NCS 2015,MECH-UNIT,RACK-2,MECH-UNIT
+7688694 [20],Cisco NCS 2015,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M15],20-SMRFS-CV
+7688694 [6],Cisco NCS 2015,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M15],16-AD-CCOFS
+7688694 [30],Cisco NCS 2015,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M15],TNCS-O
+7688694 [33],Cisco NCS 2015,NCS2K-TNCS-O-K9,SHELF-1[SHELF-M15],TNCS-O
+7688694 [43],Cisco NCS 2015,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M15],20-SMRFS-CV
+7688694 [23],Cisco NCS 2015,NCS2015-ECU,SHELF-1[SHELF-M15],No Description Listed
+7688694 [35],Cisco NCS 2015,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M15],20-SMRFS-CV
+7688694 [36],Cisco NCS 2015,NCS2K-20-SMRFS-CV,SHELF-1[SHELF-M15],20-SMRFS-CV
+7688694 [2],Cisco NCS 2015,NCS2K-16-AD-CCOFS,SHELF-1[SHELF-M15],16-AD-CCOFS
+7688694 [18],Cisco NCS 2015,NCS2K-200G-CK-C,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+7688694 [40],Cisco NCS 2015,NCS2K-200G-CK,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+7688694 [14],Cisco NCS 2015,NCS2K-200G-CK,SHELF-2[SHELF-M6],200G-CK-LC 1528.77
+7688694 [44],Cisco NCS 2015,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688694 [1],Cisco NCS 2015,15454-M6-ECU,SHELF-2[SHELF-M6],No Description Listed
+7688694 [24],Cisco NCS 2015,15454-M-TNCE-K9,SHELF-2[SHELF-M6],TNC-E
+7688694 [3],Cisco NCS 2015,NCS2K-200G-CK-C,SHELF-3[SHELF-M6],200G-CK-LC 1528.77
+7688694 [5],Cisco NCS 2015,15454-PSM=,SHELF-3[SHELF-M6],PSM
+7688694 [46],Cisco NCS 2015,NCS2K-200G-CK-C,SHELF-3[SHELF-M6],200G-CK-LC 1528.77
+7688694 [21],Cisco NCS 2015,NCS2K-200G-CK-C,SHELF-3[SHELF-M6],200G-CK-LC 1528.77
+7688694 [29],Cisco NCS 2015,NCS2006-ECU,SHELF-3[SHELF-M6],No Description Listed
+7688694 [15],Cisco NCS 2015,15454-M-TNCE-K9,SHELF-3[SHELF-M6],TNC-E
+7688694 [25],Cisco NCS 2015,15454-M-TNCE-K9,SHELF-3[SHELF-M6],TNC-E
+7688752 [4],Cisco NCS 4202,module R0,slot R0,UEA Unknown Module
+7688752 [1],Cisco NCS 4202, FIXED IM subslot 0/0,subslot 0/0,FIXED : 12-port Gig & 4-port Ten Gig Ethernet Interface Module
+7688752 [3],Cisco NCS 4202,ONS-SI-OC-VCOP      ,subslot 0/0 transceiver container 11,VCoP OC-3/OC-12
+7688752 [2],Cisco NCS 4202,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 15,SFP+ 10GBASE-LR
+7688752 [5],Cisco NCS 4202,AFCT-5710APZ-CS1,subslot 0/0 transceiver container 8,GE LX
+7688752 [6],Cisco NCS 4202,NCS4200-8E1T1-CE,subslot 0/1,8 port T1/E1 IM
+6051045 [4],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+6051046 [5],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+6051048 [4],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688737 [13],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688747 [3],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688749 [12],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688750 [6],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688753 [13],Cisco NCS 4206,NCS420X-RSP,slot R0,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688747 [7],Cisco NCS 4206,NCS420X-RSP,slot R1,"NCS 420X Route Switch Processor , 400G, XL Scale"
+7688750 [7],Cisco NCS 4206,UEA-PID-UNKNOWN,slot R1,UEA Unknown Module
+7688753 [10],Cisco NCS 4206,NCS420X-RSP,slot R1,"NCS 420X Route Switch Processor , 400G, XL Scale"
+6051045 [5],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/0,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+6051046 [4],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/0,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+6051048 [3],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/0,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+7688737 [8],Cisco NCS 4206,NCS4200-8T-PS,subslot 0/0,8-port Ten Gigabit Ethernet SFP+ Interface Module
+7688747 [12],Cisco NCS 4206,NCS4200-8T-PS,subslot 0/0,8-port Ten Gigabit Ethernet SFP+ Interface Module
+7688749 [1],Cisco NCS 4206,NCS4200-8T-PS,subslot 0/0,8-port Ten Gigabit Ethernet SFP+ Interface Module
+7688750 [2],Cisco NCS 4206,NCS4200-8T-PS,subslot 0/0,8-port Ten Gigabit Ethernet SFP+ Interface Module
+7688753 [1],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/0,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+6051045 [1],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 0,GE SX
+6051046 [6],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 0,GE SX
+6051048 [7],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 0,GE SX
+7688737 [7],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/0 transceiver container 0,SFP+ 10GBASE-SR
+7688747 [2],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 0,SFP+ 10GBASE-LR
+7688749 [2],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 0,SFP+ 10GBASE-LR
+7688750 [3],Cisco NCS 4206,SFP-10G-LR          ,subslot 0/0 transceiver container 0,SFP+ 10GBASE-LR
+7688753 [17],Cisco NCS 4206,ONS-SI-GE-LX        ,subslot 0/0 transceiver container 0,GE LX
+6051045 [2],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 1,GE SX
+6051046 [2],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 1,GE SX
+6051048 [6],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 1,GE SX
+7688737 [11],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/0 transceiver container 1,SFP+ 10GBASE-SR
+7688747 [8],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 1,SFP+ 10GBASE-LR
+7688749 [5],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 1,SFP+ 10GBASE-LR
+7688750 [5],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 1,SFP+ 10GBASE-LR
+7688753 [11],Cisco NCS 4206,ONS-SI-GE-LX        ,subslot 0/0 transceiver container 1,GE LX
+6051046 [7],Cisco NCS 4206,SFP-GE-S            ,subslot 0/0 transceiver container 2,GE SX
+7688747 [6],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 2,SFP+ 10GBASE-LR
+7688749 [3],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 2,SFP+ 10GBASE-LR
+7688750 [9],Cisco NCS 4206,ONS-SC+-10G-LR      ,subslot 0/0 transceiver container 2,SFP+ 10GBASE-LR
+7688753 [7],Cisco NCS 4206,ONS-SI-GE-LX        ,subslot 0/0 transceiver container 4,GE LX
+7688753 [12],Cisco NCS 4206,ONS-SI-GE-LX        ,subslot 0/0 transceiver container 5,GE LX
+6051045 [6],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/0 transceiver container 8,SFP+ 10GBASE-SR
+6051046 [3],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/0 transceiver container 8,SFP+ 10GBASE-SR
+6051048 [9],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/0 transceiver container 8,SFP+ 10GBASE-SR
+7688753 [6],Cisco NCS 4206,SFP-10G-LR          ,subslot 0/0 transceiver container 8,SFP+ 10GBASE-LR
+6051045 [3],Cisco NCS 4206,NCS4200-48T1E1-CE,subslot 0/1,NCS 48 port T1E1 IM
+6051046 [1],Cisco NCS 4206,NCS4200-48T1E1-CE,subslot 0/1,NCS 48 port T1E1 IM
+6051048 [1],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/1,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+7688737 [3],Cisco NCS 4206,A900-IMA1X,subslot 0/1,1-port Ten Gigabit Ethernet XFP Interface Module
+7688747 [11],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/1,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+7688749 [10],Cisco NCS 4206,NCS4200-1T8LR-PS,subslot 0/1,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+6051048 [2],Cisco NCS 4206,SFP-GE-T            ,subslot 0/1 transceiver container 0,GE T
+7688737 [2],Cisco NCS 4206,XFP-10G-MM-SR       ,subslot 0/1 transceiver container 0,10GBASE-SR
+6051048 [5],Cisco NCS 4206,SFP-GE-T            ,subslot 0/1 transceiver container 1,GE T
+7688749 [8],Cisco NCS 4206,ONS-SI-GE-LX        ,subslot 0/1 transceiver container 7,GE LX
+6051048 [8],Cisco NCS 4206,SFP-10G-SR          ,subslot 0/1 transceiver container 8,SFP+ 10GBASE-SR
+7688737 [15],Cisco NCS 4206,A900-IMA8S,subslot 0/2,8-port Gigabit Ethernet Interface Module
+7688747 [4],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/2,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688749 [11],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/2,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688753 [2],Cisco NCS 4206,NCS4200-48T1E1-CE,subslot 0/2,ASR 900 48 port T1E1 IM
+7688737 [14],Cisco NCS 4206,SFP-GE-S            ,subslot 0/2 transceiver container 0,GE SX
+7688747 [1],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/2 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688749 [9],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/2 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688737 [10],Cisco NCS 4206,SP7041-E        ,subslot 0/2 transceiver container 1,GE T
+7688737 [6],Cisco NCS 4206,SFP-GE-S            ,subslot 0/2 transceiver container 2,GE SX
+7688737 [9],Cisco NCS 4206,SP7041-E        ,subslot 0/2 transceiver container 3,GE T
+7688737 [5],Cisco NCS 4206,SP7041-E        ,subslot 0/2 transceiver container 4,GE T
+7688737 [1],Cisco NCS 4206,SFP-GE-T            ,subslot 0/2 transceiver container 6,GE T
+7688737 [12],Cisco NCS 4206,NCS4200-3GMS,subslot 0/3,ASR 900 Combo 4 port DS3 12 DS1 and 4 OCx
+7688747 [9],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/3,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688749 [6],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/3,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688750 [1],Cisco NCS 4206,NCS4200-48T3E3-CE,subslot 0/3,ASR 900 48 port T3E3 IM
+7688753 [18],Cisco NCS 4206,NCS4200-48T3E3-CE,subslot 0/3,ASR 900 48 port T3E3 IM
+7688747 [10],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/3 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688749 [7],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/3 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688737 [4],Cisco NCS 4206,NCS4200-48T3E3-CE,subslot 0/4,ASR 900 48 port T3E3 IM
+7688747 [5],Cisco NCS 4206,NCS4200-48T3E3-CE,subslot 0/4,ASR 900 48 port T3E3 IM
+7688749 [13],Cisco NCS 4206,NCS4200-48T1E1-CE,subslot 0/4,ASR 900 48 port T1E1 IM
+7688753 [4],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/4,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688753 [16],Cisco NCS 4206,ONS-SI-622-I1       ,subslot 0/4 transceiver container 3,Dual-Rate OC3/12 IR-1
+7688753 [3],Cisco NCS 4206,OSG  ,subslot 0/4 transceiver container 4,OC48 SR/STM16 I-16
+7688753 [14],Cisco NCS 4206,ONS-SI-622-I1       ,subslot 0/4 transceiver container 6,Dual-Rate OC3/12 IR-1
+7688747 [13],Cisco NCS 4206,NCS4200-48T1E1-CE,subslot 0/5,ASR 900 48 port T1E1 IM
+7688749 [4],Cisco NCS 4206,NCS4200-48T3E3-CE,subslot 0/5,ASR 900 48 port T3E3 IM
+7688750 [8],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/5,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688753 [15],Cisco NCS 4206,NCS4200-1T8S-10CS,subslot 0/5,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688750 [4],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/5 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688753 [5],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/5 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688753 [9],Cisco NCS 4206,ONS-SI-2G-L2        ,subslot 0/5 transceiver container 4,OC48 LR-2/STM16 L-16.2
+7688753 [8],Cisco NCS 4206,SCP6802-C1-BWE  ,subslot 0/5 transceiver container 7,Dual-Rate OC3/12 IR-1
+7688751 [2],Cisco NCS 4216,NCS4216-RSP,slot R0,"NCS 4216 Route Switch Processor , 400G, XL Scale"
+143055913 [8],Cisco NCS 4216,NCS4216-RSP,slot R0,"NCS 4216 Route Switch Processor , 400G, XL Scale"
+7688751 [6],Cisco NCS 4216,NCS4216-RSP,slot R1,"NCS 4216 Route Switch Processor , 400G, XL Scale"
+143055913 [2],Cisco NCS 4216,UEA-PID-UNKNOWN,slot R1,UEA Unknown Module
+7688751 [14],Cisco NCS 4216,NCS4200-48T1E1-CE,subslot 0/3,ASR 900 48 port T1E1 IM
+7688751 [7],Cisco NCS 4216,NCS4200-2Q-P,subslot 0/4,2-port Forty Gigabit Ethernet QSFP Interface Module
+143055913 [7],Cisco NCS 4216,NCS4200-1T8LR-PS,subslot 0/6,8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module
+143055913 [12],Cisco NCS 4216,ONS-SI-GE-LX        ,subslot 0/6 transceiver container 0,GE LX
+143055913 [1],Cisco NCS 4216,ONS-SI-GE-LX        ,subslot 0/6 transceiver container 4,GE LX
+143055913 [13],Cisco NCS 4216,ONS-SC+-10G-LR      ,subslot 0/6 transceiver container 8,SFP+ 10GBASE-LR
+7688751 [3],Cisco NCS 4216,NCS4200-1T8S-10CS,subslot 0/7,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688751 [12],Cisco NCS 4216,SCP6802-C1-BWE  ,subslot 0/7 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688751 [1],Cisco NCS 4216,SCP6802-C1-BWE  ,subslot 0/7 transceiver container 1,Dual-Rate OC3/12 IR-1
+7688751 [13],Cisco NCS 4216,NCS4200-8T-PS,subslot 0/8,8-port Ten Gigabit Ethernet SFP+ Interface Module
+143055913 [11],Cisco NCS 4216,NCS4200-1T8S-10CS,subslot 0/8,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688751 [11],Cisco NCS 4216,ONS-SC+-10G-LR      ,subslot 0/8 transceiver container 0,SFP+ 10GBASE-LR
+143055913 [5],Cisco NCS 4216,SCP6802-C1-BWE  ,subslot 0/8 transceiver container 0,Dual-Rate OC3/12 IR-1
+7688751 [8],Cisco NCS 4216,ONS-SC+-10G-LR      ,subslot 0/8 transceiver container 1,SFP+ 10GBASE-LR
+143055913 [9],Cisco NCS 4216,ONS-SI-622-I1       ,subslot 0/8 transceiver container 1,Dual-Rate OC3/12 IR-1
+7688751 [5],Cisco NCS 4216,ONS-SC+-10G-LR      ,subslot 0/8 transceiver container 2,SFP+ 10GBASE-LR
+143055913 [10],Cisco NCS 4216,ONS-SI-622-I1       ,subslot 0/8 transceiver container 2,Dual-Rate OC3/12 IR-1
+143055913 [4],Cisco NCS 4216,ONS-SI-622-I1       ,subslot 0/8 transceiver container 3,Dual-Rate OC3/12 IR-1
+143055913 [3],Cisco NCS 4216,ONS-SI-2G-L2        ,subslot 0/8 transceiver container 5,OC48 LR-2/STM16 L-16.2
+143055913 [6],Cisco NCS 4216,ONS-SI-622-I1       ,subslot 0/8 transceiver container 7,Dual-Rate OC3/12 IR-1
+7688751 [9],Cisco NCS 4216,NCS4200-1T8S-10CS,subslot 0/9,ASR 900 Combo 8 port SFP GE and 1 port 10GE IM with OTN and CEM
+7688751 [10],Cisco NCS 4216,SCP6878-C9-BWE  ,subslot 0/9 transceiver container 4,OC48 LR-2/STM16 L-16.2
+7688751 [4],Cisco NCS 4216,SCP6878-C9-BWE  ,subslot 0/9 transceiver container 6,OC48 LR-2/STM16 L-16.2

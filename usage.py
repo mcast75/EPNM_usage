@@ -7,6 +7,8 @@ __status__ = "Development"
 import base64, getpass, requests, json, sys, time
 from epnm import EPNM
 from time import sleep
+import csv
+from xlrd import open_workbook
 
 
 def get_inventory(auth, host):
@@ -75,6 +77,8 @@ def get_ip_map(auth, host, id_list):
 	return opt_list
 
 def get_dev_det(auth, host,dev):
+	inv_dets = {}
+	
 	url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev+".json"
 	headers={
 		'content-type': "application",
@@ -84,17 +88,37 @@ def get_dev_det(auth, host,dev):
 	response = requests.request("GET", url, headers=headers, verify=False).json()
 	# print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'], indent=2)
 	# print len(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'])
-
+	dev_type = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['deviceType']
 	mod_list = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module']
 	i = 0
 	for item in mod_list:
+		r_list = []
 		if item['equipmentType'] == 'MODULE': #and item['physicalLocation'] == 'SHELF':
-			print json.dumps(item, indent=2)
-			print item['productName']
+			# print json.dumps(item, indent=2)
+
 			i = i+1
-	print '\n-------------------------'
-	print str(i) + " Modules"
-	print '-------------------------\n'
+			r_list.append(str(dev_type))
+			r_list.append(str(item['productName']))
+
+			try:
+				r_list.append(str(item['description']))
+			except:
+				r_list.append(str('No Description Listed'))
+			
+			try:
+				r_list.append(str(item['physicalLocation']))
+			except:
+				r_list.append(str('No Location Listed'))
+
+		
+			inv_key = dev+' ['+str(i)+']'
+			inv_dets[inv_key] = r_list
+
+	# print '\n-------------------------'
+	# print str(i) + " Modules"
+	# print '-------------------------\n'
+
+	return inv_dets
 
 	# print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['udiDetails'], indent=2)
 
@@ -112,11 +136,27 @@ if __name__ == '__main__':
 	auth = base64.b64encode(user + ":" + pwd)
 
 
-	# id_ip_map = get_ip_map(auth, host_addr, get_opt_dev(auth, host_addr))
+	#id_ip_map = get_ip_map(auth, host_addr, get_opt_dev(auth, host_addr))
+	
 	# for k in id_ip_map:
 	# 	v = id_ip_map[k]
 	# 	print (k, v)
 
-	get_dev_det(auth, host_addr, '7688737')
+	id_list = get_opt_dev(auth, host_addr)
+
+	ref_out = 'mod_out.csv'
+	with open(ref_out, 'w') as output:
+		fieldnames = ['DevID', 'Family', "Module Name", "Description", "Location"]
+		out_writer = csv.DictWriter(output, fieldnames=fieldnames)
+		out_writer.writerow({'DevID': 'Dev ID', 'Family':'Family', "Module Name":"Module Name", "Description":"Description", "Location":"Location"})
+
+		for id_num in id_list:
+			inv_dets = get_dev_det(auth, host_addr, id_num)
+			keys = sorted(inv_dets.keys())
+			for k in inv_dets:
+				v = inv_dets[k]
+				# print (k,v)
+				out_writer.writerow({'DevID': k, "Family":v[0], "Module Name":v[1], "Location":v[3], "Description":v[2]})
+
 
 	
