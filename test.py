@@ -26,12 +26,14 @@ def get_headers(auth, content_type = "application", cache_control = "no-cache"):
     }
     return headers
 
+def get_response(url, headers, requestType = "GET", verify = False):
+    return requests.request(requestType, url, headers=headers, verify = verify).json()
 
 def get_inventory(auth, host):
     """ Queries all registered Guests"""
     url = "https://"+host+"/webacs/api/v1/data/Devices.json?"
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     response =  response['queryResponse']['entityId']
     id_list = []
     for item in response:
@@ -41,7 +43,7 @@ def get_inventory(auth, host):
 def get_dev(auth, host, dev_id):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev_id+".json"
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     dev_pair = {}
     print json.dumps(response, indent = 2)
     try:
@@ -56,7 +58,7 @@ def get_opt_dev(auth, host):
     response_list = []
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     id_list = response['queryResponse']['entityId']
     for dev in id_list:
         response_list.append(str(dev['$']))
@@ -70,7 +72,7 @@ def get_NCS2K_dev(auth, host):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")&.maxResults=1"
     # display name matches ID and iPAddress matches Mike
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     print json.dumps(response, indent = 2)
     # print response
     id_list = response['queryResponse']['entity']
@@ -151,7 +153,7 @@ def get_NCS2KMOD_dev(auth, host):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")"
     # display name matches ID and iPAddress matches Mike
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     # print json.dumps(response, indent = 2)
     # print response
     allDevices = []
@@ -178,11 +180,7 @@ def get_NCS2KMOD_dev(auth, host):
                     lineCards[productName] += 1
                 else:
                     lineCards[productName] = 1
-            # print "HERE123"
-            # print "HERE123"
-            # print "HERE123"
-            # print "HERE123"
-            # print module
+
             if "physicalLocation" in module:
                 physicalLocation = module["physicalLocation"]
                 if physicalLocation in chasses:
@@ -228,7 +226,7 @@ def get_ip_map(auth, host, id_list):
     headers = get_headers(auth)
     for item in id_list:
         url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+item+".json"
-        response = requests.request("GET", url, headers=headers, verify=False).json()
+        response = get_response(url, headers, requestType = "GET", verify = False)
         ip_addr = str(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['ipAddress'])
         opt_list[item]=ip_addr
 
@@ -239,7 +237,7 @@ def get_dev_det(auth, host,dev):
     
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev+".json"
     headers = get_headers(auth)
-    response = requests.request("GET", url, headers=headers, verify=False).json()
+    response = get_response(url, headers, requestType = "GET", verify = False)
     # print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'], indent=2)
     # print len(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'])
     dev_type = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['deviceType']
@@ -296,7 +294,8 @@ if __name__ == '__main__':
     #   v = id_ip_map[k]
     #   print (k, v)
 
-    # deviceList = get_dev(auth, host_addr, "7688694")
+    # deviceList = get_dev(auth, host_addr, "7688707")
+
     deviceList = get_NCS2KMOD_dev(auth, host_addr)
 
     ref_out = '2k.csv'
