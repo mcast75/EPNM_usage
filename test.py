@@ -50,7 +50,6 @@ def get_single_device(auth, host, dev_id):
     headers = get_headers(auth)
     response = get_response(url, headers, requestType = "GET", verify = False)
     dev_pair = {}
-    # print json.dumps(response, indent = 2)
     try:
         dev_type = str(response['queryResponse']['entity'][0]['inventoryDetailsDTO'])
         dev_pair[dev_id] = dev_type
@@ -59,15 +58,13 @@ def get_single_device(auth, host, dev_id):
         raise ValueError("Device " + str(dev_id) + " not found")
 
 
-def get_opt_dev(auth, host):
-    response_list = []
+def get_all_optical_device_ids(auth, host):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
     headers = get_headers(auth)
     response = get_response(url, headers, requestType = "GET", verify = False)
-    id_list = response['queryResponse']['entityId']
-    for dev in id_list:
-        response_list.append(str(dev['$']))
-    return response_list
+    response =  response['queryResponse']['entityId']
+    id_list = get_device_ID_list(response)
+    return id_list
 
 def get_NCS2K_dev(auth, host):
     response_list = []
@@ -299,8 +296,8 @@ if __name__ == '__main__':
     #   v = id_ip_map[k]
     #   print (k, v)
 
-    print get_single_device(auth, host_addr, "7688707")
-    # print get_inventory(auth, host_addr)
+    # print get_single_device(auth, host_addr, "7688707")
+    print get_all_optical_device_ids(auth, host_addr)
     # deviceList = get_NCS2KMOD_dev(auth, host_addr)
 
     # ref_out = '2k.csv'
