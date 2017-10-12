@@ -29,15 +29,20 @@ def get_headers(auth, content_type = "application", cache_control = "no-cache"):
 def get_response(url, headers, requestType = "GET", verify = False):
     return requests.request(requestType, url, headers=headers, verify = verify).json()
 
+def get_device_ID_list(response):
+    id_list = []
+    for item in response:
+        id_list.append(str(item['$']))
+    return id_list
+
+
 def get_inventory(auth, host):
     """ Queries all registered Guests"""
     url = "https://"+host+"/webacs/api/v1/data/Devices.json?"
     headers = get_headers(auth)
     response = get_response(url, headers, requestType = "GET", verify = False)
     response =  response['queryResponse']['entityId']
-    id_list = []
-    for item in response:
-        id_list.append(str(item['$']))
+    id_list = get_device_ID_list(response)
     return id_list
 
 def get_dev(auth, host, dev_id):
@@ -295,16 +300,16 @@ if __name__ == '__main__':
     #   print (k, v)
 
     # deviceList = get_dev(auth, host_addr, "7688707")
+    print get_inventory(auth, host_addr)
+    # deviceList = get_NCS2KMOD_dev(auth, host_addr)
 
-    deviceList = get_NCS2KMOD_dev(auth, host_addr)
-
-    ref_out = '2k.csv'
-    with open(ref_out, 'w') as output:
-        fieldnames = ['deviceID', 'deviceIP', 'deviceName', 'deviceType', 'lineCards', 'slotUsage', 'capacity', 'chassisCapacity', 'utilization']
-        out_writer = csv.DictWriter(output, fieldnames=fieldnames)
-        out_writer.writerow({'deviceID': 'Device ID', 'deviceIP':'Device IP', 'deviceName':'Device Name', 'deviceType':'Device Type', 'lineCards':'Line Cards', 'slotUsage':'Slot Usage', 'capacity':'Capacity', 'chassisCapacity':'Chassis Capacity', 'utilization':'Utilization'})
-        for device in deviceList:
-            out_writer.writerow({'deviceID':device['deviceID'], 'deviceIP':device['deviceIP'], 'deviceName':device['deviceName'],'deviceType':device['deviceType'], 'lineCards':device['lineCards'], 'slotUsage':device['slotUsage'], 'capacity':device['capacity'], 'chassisCapacity':device['chassisCapacity'], 'utilization':device['utilization']})
+    # ref_out = '2k.csv'
+    # with open(ref_out, 'w') as output:
+    #     fieldnames = ['deviceID', 'deviceIP', 'deviceName', 'deviceType', 'lineCards', 'slotUsage', 'capacity', 'chassisCapacity', 'utilization']
+    #     out_writer = csv.DictWriter(output, fieldnames=fieldnames)
+    #     out_writer.writerow({'deviceID': 'Device ID', 'deviceIP':'Device IP', 'deviceName':'Device Name', 'deviceType':'Device Type', 'lineCards':'Line Cards', 'slotUsage':'Slot Usage', 'capacity':'Capacity', 'chassisCapacity':'Chassis Capacity', 'utilization':'Utilization'})
+    #     for device in deviceList:
+    #         out_writer.writerow({'deviceID':device['deviceID'], 'deviceIP':device['deviceIP'], 'deviceName':device['deviceName'],'deviceType':device['deviceType'], 'lineCards':device['lineCards'], 'slotUsage':device['slotUsage'], 'capacity':device['capacity'], 'chassisCapacity':device['chassisCapacity'], 'utilization':device['utilization']})
 
 
     
