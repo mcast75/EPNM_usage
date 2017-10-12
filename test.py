@@ -10,6 +10,14 @@ from time import sleep
 import csv
 from xlrd import open_workbook
 
+SLOTS = []
+
+with open("slotList.csv", 'r') as my_file:
+    reader = csv.reader(my_file)
+    for row in reader:
+        SLOTS.append(row[0])
+    print(SLOTS)
+
 def get_headers(auth, content_type = "application", cache_control = "no-cache"):
     headers={
         'content-type': content_type,
@@ -31,11 +39,11 @@ def get_inventory(auth, host):
     return id_list
 
 def get_dev(auth, host, dev_id):
-    url = "https://"+host+"/webacs/api/v1/data/Devices/"+dev_id+".json"
+    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev_id+".json"
     headers = get_headers(auth)
     response = requests.request("GET", url, headers=headers, verify=False).json()
     dev_pair = {}
-
+    print json.dumps(response, indent = 2)
     try:
         dev_type = str(response['queryResponse']['entity'][0]['devicesDTO'])
         dev_pair[dev_id] = dev_type
@@ -74,28 +82,72 @@ def get_NCS2K_dev(auth, host):
         response_list.append(str(deviceID))
     return response_list
 
-def get_NCS2KMODDDDDDDD_dev(auth, host):
+def determineCapacity(deviceType):
+    if deviceType == 'Cisco NCS 2006':
+        return 8
+    if deviceType == 'Cisco NCS 2015':
+        return 17
+    # if deviceType == 'Cisco NCS 2002':
+    return 3
+
+def createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, utilization):
+    device = {
+        'deviceID' : deviceID,
+        'deviceIP' : deviceIP,
+        'deviceName' : deviceName,
+        'deviceType' : deviceType,
+        'lineCards' : lineCards,
+        'slotUsage' : slotUsage,
+        'capacity' : capacity,
+        'utilization' : utilization
+    }
+    return device
+
+def get_NCS2KMOD_dev(auth, host):
     response_list = []
     # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
     # url = "https://"+host+"/webacs/api/v2/data/Devices.json?.full=true&deviceType=startsWith(\"Cisco NCS 2\")"
     # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.productFamily=\"Optical Networking\"&.maxResults=1"
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")"
+    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")&.maxResults=5"
     # display name matches ID and iPAddress matches Mike
     headers = get_headers(auth)
     response = requests.request("GET", url, headers=headers, verify=False).json()
     print json.dumps(response, indent = 2)
     # print response
-    id_list = response['queryResponse']['entity']['inventoryDetailsDTO']['summary']
-    summary = response['queryResponse']['entity']['inventoryDetailsDTO']['summary']
-    deviceID = summary['deviceID']
-    deviceIP = summary['ipAddress']
-    for dev in id_list:
-        deviceID =  dev["devicesDTO"]["@displayName"]
-        deviceIP =  dev["devicesDTO"]["ipAddress"]
-        print deviceID
-        print deviceIP
-        response_list.append(str(deviceID))
-    return response_list
+    allDevices = []
+    deviceList = response['queryResponse']['entity']
+
+    for device in deviceList:
+        summary = device['inventoryDetailsDTO']['summary']
+        deviceID = summary['deviceId']
+        deviceIP = summary['ipAddress']
+        deviceName = summary['deviceName']
+        deviceType = summary['deviceType']
+        lineCards = {}
+        slotUsage = 0
+        capacity = determineCapacity(deviceType)
+        modules = device['inventoryDetailsDTO']['modules']
+
+        for module in modules['module']:
+            productName = module["productName"]
+            if productName in SLOTS:
+                slotUsage += 1
+                if productName in lineCards:
+                    lineCards[productName] += 1
+                else:
+                    lineCards[productName] = 1
+
+        utilization = float(slotUsage) / float(capacity)
+        thisDevice = createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, utilization)
+        allDevices.append(thisDevice)
+
+    for each in allDevices:
+        for k in each:
+            v = each[k]
+            print v
+        print
+        print
+    return allDevices
 
 def get_ip_map(auth, host, id_list):
     opt_list = {}
@@ -170,26 +222,15 @@ if __name__ == '__main__':
     #   v = id_ip_map[k]
     #   print (k, v)
 
-    id_list = get_NCS2K_dev(auth, host_addr)
+    deviceList = get_dev(auth, host_addr, "7688694")
 
-    ref_out = 'mod_out.csv'
+    ref_out = '2k.csv'
     with open(ref_out, 'w') as output:
-        fieldnames = ['DevID', 'Family', "Module Name", "Description", "Location"]
+        fieldnames = ['deviceID', 'deviceIP', 'deviceName', 'deviceType', 'lineCards', 'slotUsage', 'capacity', 'utilization']
         out_writer = csv.DictWriter(output, fieldnames=fieldnames)
-        out_writer.writerow({'DevID': 'Dev ID', 'Family':'Family', "Module Name":"Module Name", "Description":"Description", "Location":"Location"})
-        count = 0
-        for id_num in id_list:
-            # print get_dev(auth, host_addr, id_num)
-            inv_dets = get_dev_det(auth, host_addr, id_num)
-            # print inv_dets
-            count = count + 1
-            if count == 20:
-                break
-            keys = sorted(inv_dets.keys())
-            for k in inv_dets:
-                v = inv_dets[k]
-                # print (k,v)
-                out_writer.writerow({'DevID': k, "Family":v[0], "Module Name":v[1], "Location":v[3], "Description":v[2]})
+        out_writer.writerow({'deviceID': 'Device ID', 'deviceIP':'Device IP', 'deviceName':'Device Name', 'deviceType':'Device Type', 'lineCards':'Line Cards', 'slotUsage':'Slot Usage', 'capacity':'Capacity', 'utilization':'Utilization'})
+        for device in deviceList:
+            out_writer.writerow({'deviceID':device['deviceID'], 'deviceIP':device['deviceIP'], 'deviceName':device['deviceName'],'deviceType':device['deviceType'], 'lineCards':device['lineCards'], 'slotUsage':device['slotUsage'], 'capacity':device['capacity'], 'utilization':device['utilization']})
 
 
     
