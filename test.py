@@ -90,7 +90,46 @@ def determineCapacity(deviceType):
     # if deviceType == 'Cisco NCS 2002':
     return 3
 
-def createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, utilization):
+# def determineFanCapacity(deviceType):
+#     productFamily = deviceType[0:7]
+#     if 'NCS2006' in productFamily:
+#         return 8
+#     if 'NCS2015' in productFamily:
+#         return 17
+#     if 'NCS2002' in productFamily:
+#         return 3
+#     if 'M6' in productFamily:
+#         return 8
+#     if 'M2' in productFamily:
+#         return 3
+
+def determineTotalCapacity(physicalLocation):
+    if physicalLocation == 'SHELF':
+        return 8
+    location = physicalLocation[0:6]
+    if 'SHELF-' == location:
+        productFamily = physicalLocation[-4:]
+        if '-M2]' == productFamily:
+            return 3
+        if '-M6]' == productFamily:
+            return 8
+        if 'M15]' == productFamily:
+            return 17
+        print "WHAAAAAAT SHELF"
+        raise ValueError("SHELF")
+    if 'PSHELF' == location:
+        productFamily = physicalLocation[-5:]
+        if '-2RU]' == productFamily:
+            return 3
+        if '-6RU]' == productFamily:
+            return 8
+        if '-15RU]' == productFamily:
+            return 17
+        print "WHAAAAAAT PSHELF"
+        raise ValueError("PHSELF")
+    return 0
+
+def createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, chassisCapacity, utilization):
     device = {
         'deviceID' : deviceID,
         'deviceIP' : deviceIP,
@@ -99,6 +138,7 @@ def createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slo
         'lineCards' : lineCards,
         'slotUsage' : slotUsage,
         'capacity' : capacity,
+        'chassisCapacity' : chassisCapacity,
         'utilization' : utilization
     }
     return device
@@ -108,11 +148,11 @@ def get_NCS2KMOD_dev(auth, host):
     # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
     # url = "https://"+host+"/webacs/api/v2/data/Devices.json?.full=true&deviceType=startsWith(\"Cisco NCS 2\")"
     # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.productFamily=\"Optical Networking\"&.maxResults=1"
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")&.maxResults=5"
+    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")"
     # display name matches ID and iPAddress matches Mike
     headers = get_headers(auth)
     response = requests.request("GET", url, headers=headers, verify=False).json()
-    print json.dumps(response, indent = 2)
+    # print json.dumps(response, indent = 2)
     # print response
     allDevices = []
     deviceList = response['queryResponse']['entity']
@@ -124,8 +164,10 @@ def get_NCS2KMOD_dev(auth, host):
         deviceName = summary['deviceName']
         deviceType = summary['deviceType']
         lineCards = {}
+        chasses = []
         slotUsage = 0
         capacity = determineCapacity(deviceType)
+        chassisCapacity = 0
         modules = device['inventoryDetailsDTO']['modules']
 
         for module in modules['module']:
@@ -136,9 +178,41 @@ def get_NCS2KMOD_dev(auth, host):
                     lineCards[productName] += 1
                 else:
                     lineCards[productName] = 1
+            # print "HERE123"
+            # print "HERE123"
+            # print "HERE123"
+            # print "HERE123"
+            # print module
+            if "physicalLocation" in module:
+                physicalLocation = module["physicalLocation"]
+                if physicalLocation in chasses:
+                    print "Already counted" + physicalLocation
+                else:
+                    extraChassisCapacity = determineTotalCapacity(physicalLocation)
+                    if extraChassisCapacity > 0:
+                        chassisCapacity += extraChassisCapacity
+                        chasses.append(physicalLocation)
+
+
+
+        # fans = device['inventoryDetailsDTO']['fans']
+        # print fans
+        # print fans['fan']
+        # if type(fans['fan']) is list:
+        #     for fan in fans['fan']:
+        #         fanName = fan['name']
+        #         print fanName
+        #         print "LISTSTSTST"
+        #         fanCapacity += determineFanCapacity(fanName)
+        # if type(fans['fan']) is dict:
+        #     fanName = fans['fan']['name']
+        #     print fanName
+        #     print "DICTCISODJFOSDJFIOSDF"
+        #     fanCapacity += determineFanCapacity(fanName)
+        
 
         utilization = float(slotUsage) / float(capacity)
-        thisDevice = createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, utilization)
+        thisDevice = createDeviceModel(deviceID, deviceIP, deviceName, deviceType, lineCards, slotUsage, capacity, chassisCapacity, utilization)
         allDevices.append(thisDevice)
 
     for each in allDevices:
@@ -222,15 +296,16 @@ if __name__ == '__main__':
     #   v = id_ip_map[k]
     #   print (k, v)
 
-    deviceList = get_dev(auth, host_addr, "7688694")
+    # deviceList = get_dev(auth, host_addr, "7688694")
+    deviceList = get_NCS2KMOD_dev(auth, host_addr)
 
     ref_out = '2k.csv'
     with open(ref_out, 'w') as output:
-        fieldnames = ['deviceID', 'deviceIP', 'deviceName', 'deviceType', 'lineCards', 'slotUsage', 'capacity', 'utilization']
+        fieldnames = ['deviceID', 'deviceIP', 'deviceName', 'deviceType', 'lineCards', 'slotUsage', 'capacity', 'chassisCapacity', 'utilization']
         out_writer = csv.DictWriter(output, fieldnames=fieldnames)
-        out_writer.writerow({'deviceID': 'Device ID', 'deviceIP':'Device IP', 'deviceName':'Device Name', 'deviceType':'Device Type', 'lineCards':'Line Cards', 'slotUsage':'Slot Usage', 'capacity':'Capacity', 'utilization':'Utilization'})
+        out_writer.writerow({'deviceID': 'Device ID', 'deviceIP':'Device IP', 'deviceName':'Device Name', 'deviceType':'Device Type', 'lineCards':'Line Cards', 'slotUsage':'Slot Usage', 'capacity':'Capacity', 'chassisCapacity':'Chassis Capacity', 'utilization':'Utilization'})
         for device in deviceList:
-            out_writer.writerow({'deviceID':device['deviceID'], 'deviceIP':device['deviceIP'], 'deviceName':device['deviceName'],'deviceType':device['deviceType'], 'lineCards':device['lineCards'], 'slotUsage':device['slotUsage'], 'capacity':device['capacity'], 'utilization':device['utilization']})
+            out_writer.writerow({'deviceID':device['deviceID'], 'deviceIP':device['deviceIP'], 'deviceName':device['deviceName'],'deviceType':device['deviceType'], 'lineCards':device['lineCards'], 'slotUsage':device['slotUsage'], 'capacity':device['capacity'], 'chassisCapacity':device['chassisCapacity'], 'utilization':device['utilization']})
 
 
     
