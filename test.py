@@ -45,18 +45,18 @@ def get_inventory(auth, host):
     id_list = get_device_ID_list(response)
     return id_list
 
-def get_dev(auth, host, dev_id):
+def get_single_device(auth, host, dev_id):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev_id+".json"
     headers = get_headers(auth)
     response = get_response(url, headers, requestType = "GET", verify = False)
     dev_pair = {}
-    print json.dumps(response, indent = 2)
+    # print json.dumps(response, indent = 2)
     try:
-        dev_type = str(response['queryResponse']['entity'][0]['devicesDTO'])
+        dev_type = str(response['queryResponse']['entity'][0]['inventoryDetailsDTO'])
         dev_pair[dev_id] = dev_type
         return dev_pair
     except:
-        return
+        raise ValueError("Device " + str(dev_id) + " not found")
 
 
 def get_opt_dev(auth, host):
@@ -299,8 +299,8 @@ if __name__ == '__main__':
     #   v = id_ip_map[k]
     #   print (k, v)
 
-    # deviceList = get_dev(auth, host_addr, "7688707")
-    print get_inventory(auth, host_addr)
+    print get_single_device(auth, host_addr, "7688707")
+    # print get_inventory(auth, host_addr)
     # deviceList = get_NCS2KMOD_dev(auth, host_addr)
 
     # ref_out = '2k.csv'
