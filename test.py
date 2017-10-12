@@ -57,7 +57,6 @@ def get_single_device(auth, host, dev_id):
     except:
         raise ValueError("Device " + str(dev_id) + " not found")
 
-
 def get_all_optical_device_ids(auth, host):
     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
     headers = get_headers(auth)
@@ -65,47 +64,6 @@ def get_all_optical_device_ids(auth, host):
     response =  response['queryResponse']['entityId']
     id_list = get_device_ID_list(response)
     return id_list
-
-def get_NCS2K_dev(auth, host):
-    response_list = []
-    # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
-    # url = "https://"+host+"/webacs/api/v2/data/Devices.json?.full=true&deviceType=startsWith(\"Cisco NCS 2\")"
-    # url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.productFamily=\"Optical Networking\"&.maxResults=1"
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")&.maxResults=1"
-    # display name matches ID and iPAddress matches Mike
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
-    print json.dumps(response, indent = 2)
-    # print response
-    id_list = response['queryResponse']['entity']
-    for dev in id_list:
-        deviceID =  dev["devicesDTO"]["@displayName"]
-        deviceIP =  dev["devicesDTO"]["ipAddress"]
-        print deviceID
-        print deviceIP
-        response_list.append(str(deviceID))
-    return response_list
-
-def determineCapacity(deviceType):
-    if deviceType == 'Cisco NCS 2006':
-        return 8
-    if deviceType == 'Cisco NCS 2015':
-        return 17
-    # if deviceType == 'Cisco NCS 2002':
-    return 3
-
-# def determineFanCapacity(deviceType):
-#     productFamily = deviceType[0:7]
-#     if 'NCS2006' in productFamily:
-#         return 8
-#     if 'NCS2015' in productFamily:
-#         return 17
-#     if 'NCS2002' in productFamily:
-#         return 3
-#     if 'M6' in productFamily:
-#         return 8
-#     if 'M2' in productFamily:
-#         return 3
 
 def determineTotalCapacity(physicalLocation):
     if physicalLocation == 'SHELF':
@@ -119,7 +77,6 @@ def determineTotalCapacity(physicalLocation):
             return 8
         if 'M15]' == productFamily:
             return 17
-        print "WHAAAAAAT SHELF"
         raise ValueError("SHELF")
     if 'PSHELF' == location:
         productFamily = physicalLocation[-5:]
@@ -129,7 +86,6 @@ def determineTotalCapacity(physicalLocation):
             return 8
         if '-15RU]' == productFamily:
             return 17
-        print "WHAAAAAAT PSHELF"
         raise ValueError("PHSELF")
     return 0
 
