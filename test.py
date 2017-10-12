@@ -28,6 +28,11 @@ def get_headers(auth, content_type = "application", cache_control = "no-cache"):
 def get_response(url, headers, requestType = "GET", verify = False):
     return requests.request(requestType, url, headers=headers, verify = verify).json()
 
+def make_get_req(auth, host, ext, filters = ""):
+    headers = get_headers(auth)
+    url = "https://"+host+"/webacs/api/v1/data/"+ext+".json?"+filters
+    return get_response(url, headers, requestType = "GET", verify = False)
+
 def get_device_ID_list(response):
     id_list = []
     for item in response:
@@ -37,30 +42,28 @@ def get_device_ID_list(response):
 
 def get_inventory(auth, host):
     """ Queries all registered Guests"""
-    url = "https://"+host+"/webacs/api/v1/data/Devices.json?"
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
+    extension = 'Devices'
+    response = make_get_req(auth, host, extension)
     response =  response['queryResponse']['entityId']
     id_list = get_device_ID_list(response)
     return id_list
 
-def get_single_device(auth, host, dev_id):
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev_id+".json"
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
+def get_single_device(auth, host, device_id):
+    extension = 'InventoryDetails/' + device_id
+    response = make_get_req(auth, host, extension)
     dev_pair = {}
     try:
         dev_type = str(response['queryResponse']['entity'][0]['inventoryDetailsDTO'])
-        dev_pair[dev_id] = dev_type
+        dev_pair[device_id] = dev_type
         return dev_pair
     except:
-        raise ValueError("Device " + str(dev_id) + " not found")
+        raise ValueError("Device " + str(device_id) + " not found")
 
 def get_all_optical_device_ids(auth, host):
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?summary.productFamily=\"Optical Networking\"" 
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
-    response =  response['queryResponse']['entityId']
+    extension = 'InventoryDetails'
+    filters = "summary.productFamily=\"Optical Networking\""
+    response = make_get_req(auth, host, extension, filters)
+    response = response['queryResponse']['entityId']
     id_list = get_device_ID_list(response)
     return id_list
 
@@ -109,11 +112,10 @@ def print_device_list_capacity_summary(allDevices):
         print
 
 def get_NCS2KMOD_dev(auth, host):
-    response_list = []
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails.json?.full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")"
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
     allDevices = []
+    extension = 'InventoryDetails'
+    filters = ".full=true&summary.deviceType=startsWith(\"Cisco NCS 2\")"
+    response = make_get_req(auth, host, extension, filters)
     deviceList = response['queryResponse']['entity']
 
     for device in deviceList:
@@ -136,7 +138,6 @@ def get_NCS2KMOD_dev(auth, host):
                     lineCards[productName] += 1
                 else:
                     lineCards[productName] = 1
-
             if "physicalLocation" in module:
                 physicalLocation = module["physicalLocation"]
                 if physicalLocation in chasses:
@@ -156,54 +157,55 @@ def get_NCS2KMOD_dev(auth, host):
 
 def get_ip_map(auth, host, id_list):
     opt_list = {}
-    headers = get_headers(auth)
+    pre_extension = 'InventoryDetails/'
     for item in id_list:
-        url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+item+".json"
-        response = get_response(url, headers, requestType = "GET", verify = False)
+        extension = pre_extension + item
+        response = make_get_req(auth, host, extension)
+        print response
         ip_addr = str(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['ipAddress'])
         opt_list[item]=ip_addr
 
     return opt_list
 
-def get_dev_det(auth, host,dev):
-    inv_dets = {}
+# def get_dev_det(auth, host,dev):
+#     inv_dets = {}
     
-    url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev+".json"
-    headers = get_headers(auth)
-    response = get_response(url, headers, requestType = "GET", verify = False)
-    # print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'], indent=2)
-    # print len(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'])
-    dev_type = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['deviceType']
-    mod_list = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module']
-    i = 0
-    for item in mod_list:
-        r_list = []
-        if item['equipmentType'] == 'MODULE': #and item['physicalLocation'] == 'SHELF':
-            # print json.dumps(item, indent=2)
+#     url = "https://"+host+"/webacs/api/v1/data/InventoryDetails/"+dev+".json"
+#     headers = get_headers(auth)
+#     response = get_response(url, headers, requestType = "GET", verify = False)
+#     # print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'], indent=2)
+#     # print len(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module'])
+#     dev_type = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['summary']['deviceType']
+#     mod_list = response['queryResponse']['entity'][0]['inventoryDetailsDTO']['modules']['module']
+#     i = 0
+#     for item in mod_list:
+#         r_list = []
+#         if item['equipmentType'] == 'MODULE': #and item['physicalLocation'] == 'SHELF':
+#             # print json.dumps(item, indent=2)
 
-            i = i+1
-            r_list.append(str(dev_type))
-            r_list.append(str(item['productName']))
+#             i = i+1
+#             r_list.append(str(dev_type))
+#             r_list.append(str(item['productName']))
 
-            try:
-                r_list.append(str(item['description']))
-            except:
-                r_list.append(str('No Description Listed'))
+#             try:
+#                 r_list.append(str(item['description']))
+#             except:
+#                 r_list.append(str('No Description Listed'))
             
-            try:
-                r_list.append(str(item['physicalLocation']))
-            except:
-                r_list.append(str('No Location Listed'))
+#             try:
+#                 r_list.append(str(item['physicalLocation']))
+#             except:
+#                 r_list.append(str('No Location Listed'))
 
         
-            inv_key = dev+' ['+str(i)+']'
-            inv_dets[inv_key] = r_list
+#             inv_key = dev+' ['+str(i)+']'
+#             inv_dets[inv_key] = r_list
 
-    # print '\n-------------------------'
-    # print str(i) + " Modules"
-    # print '-------------------------\n'
+#     # print '\n-------------------------'
+#     # print str(i) + " Modules"
+#     # print '-------------------------\n'
 
-    return inv_dets
+#     return inv_dets
 
     # print json.dumps(response['queryResponse']['entity'][0]['inventoryDetailsDTO']['udiDetails'], indent=2)
 
@@ -221,12 +223,13 @@ if __name__ == '__main__':
     auth = base64.b64encode(user + ":" + pwd)
 
 
-    #id_ip_map = get_ip_map(auth, host_addr, get_opt_dev(auth, host_addr))
+    # id_ip_map = get_ip_map(auth, host_addr, get_all_optical_device_ids(auth, host_addr))
     
     # for k in id_ip_map:
     #   v = id_ip_map[k]
     #   print (k, v)
 
+    # print get_inventory(auth, host_addr)
     # print get_single_device(auth, host_addr, "7688707")
     # print get_all_optical_device_ids(auth, host_addr)
     deviceList = get_NCS2KMOD_dev(auth, host_addr)
