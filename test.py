@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-__author__ = "Michael Castellana"
-__email__ = "micastel@cisco.com"
+__author__ = "Michael Castellana and Steven Yee"
+__email__ = "micastel@cisco.com and steveyee@cisco.com"
 __status__ = "Development"
 
 #import necessary libraries
